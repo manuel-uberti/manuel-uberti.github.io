@@ -18,9 +18,9 @@ Italy
 Social
 ------
 
-- Jabber manuel.uberti AT inventati DOT org
-- Twitter [@manuel_uberti](https://twitter.com/manuel_uberti)
-- GitHub [manuel-uberti](https://github.com/manuel-uberti)
+- Jabber: manuel.uberti AT inventati DOT org
+- Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
+- GitHub: [manuel-uberti](https://github.com/manuel-uberti)
 
 GPG pubkey e Fingerprint
 ------------------------
