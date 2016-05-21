@@ -1,3 +1,12 @@
-_site
-.sass-cache
-.jekyll-metadata
+# Bundler configuration
+/.bundle/
+/Gemfile.lock
+
+# Vendored Gems
+/vendor/
+
+# Jekyll generated site
+/_site/
+
+# Caches
+/.sass-cache/
