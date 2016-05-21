@@ -1,20 +1,18 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+My name is Manuel Uberti.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I have been using GNU/Linux and free and open source software for years. I use
+GNU Emacs to work with LaTeX and study programming languages of the Lisp family
+(Emacs Lisp, Clojure, Scheme and Common Lisp).
 
-Thanks to the following:
+I have developed J2EE applications for 8 years, both in Italy and in the United
+Kingdom.
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Aside from IT and GNU Emacs in particular, my other passion is cinema. I have
+another blog for that: [Film in Words](https://filmsinwords.wordpress.com/).
