@@ -13,21 +13,14 @@ layout: default
   {% if page.update_date %}
     <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
   {% endif %}
-  <span class="post-meta small">
-  {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}
-  {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}
-  {% endif %}
-  </span>
 </div>
 
 <article class="post-content">
-  {{ content }}
+    {{ content }}
 </article>
 
 {% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
+{% include share_buttons.html %}
 {% endif %}
 
 {% if site.show_post_footers %}
