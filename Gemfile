@@ -1,16 +1,6 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-# GitHub Pages environment
-gem 'github-pages', versions['github-pages']
-
-# Tools
-gem 'rake'
-gem 'travis'
-gem 'html-proofer'
-gem 'scss_lint', require: false
-gem 'rubocop'
-gem 'mdl'
+# A simple Ruby Gem to bootstrap dependencies for setting up and
+# maintaining a local Jekyll environment in sync with GitHub Pages
+# https://github.com/github/pages-gem
+gem 'github-pages'
