@@ -11,8 +11,8 @@ I have been using GNU/Linux and free and open source software for years. I use
 GNU Emacs to work with LaTeX and study programming languages of the Lisp family
 (Emacs Lisp, Clojure, Scheme and Common Lisp).
 
-I have developed J2EE applications for 8 years, both in Italy and in the United
-Kingdom.
+Java developer by day, I have been developing web applications in Java more or
+less since 2004, both in Italy and in the United Kingdom.
 
 Aside from IT and GNU Emacs in particular, my other passion is cinema. I have
 another blog for that: [Film in Words](https://filmsinwords.wordpress.com/).
