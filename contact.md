@@ -6,7 +6,7 @@ tags: contact
 ---
 
 Work
-----
+====
 
 **Boccaperta**
 
@@ -16,14 +16,14 @@ Italy
 [manuel@boccaperta.com](mailto:manuel@boccaperta.com)
 
 Social
-------
+======
 
 - Jabber: manuel.uberti AT inventati DOT org
 - Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
 
 GPG pubkey e Fingerprint
-------------------------
+========================
 
 You can use my [GPG key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt)
 when you write to me.
