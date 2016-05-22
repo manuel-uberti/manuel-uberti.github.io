@@ -1,5 +1,5 @@
 <div class="pagination clearfix mb1 mt4">
-    <div class="center">
+    <div class="center-left">
         {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
         <a class="pagination-item" href="{{ site.baseurl }}/">{{ site.text.pagination.newer }}</a>
@@ -10,7 +10,7 @@
         <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
         {% endif %}
     </div>
-    <div class="center">
+    <div class="center-right">
         {% if paginator.next_page %}
         <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
         {% else %}
