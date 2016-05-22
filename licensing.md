@@ -8,16 +8,16 @@ tags: licensing
 The fonts used on this site are subject to their respective licenses:
 
 - [Crimson](https://github.com/skosch/Crimson)
-  [LICENSE Crimson](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Crimson.txt)
+  [(LICENSE Crimson)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Crimson.txt)
 - [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
-  [LICENSE Source Sans Pro](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Code%20Pro.txt)
+  [(LICENSE Source Sans Pro)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Code%20Pro.txt)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-  [LICENSE Source Code Pro](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Sans%20Pro.txt)
+  [(LICENSE Source Code Pro)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Sans%20Pro.txt)
 
 Except where otherwise noted this site is subject to the
 [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
 International license. A copy of this license follows. It is also available at
-http://creativecommons.org/licenses/by/4.0/legalcode.
+[http://creativecommons.org/licenses/by/4.0/legalcode](http://creativecommons.org/licenses/by/4.0/legalcode).
 
 ```
 Attribution 4.0 International
