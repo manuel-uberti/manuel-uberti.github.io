@@ -22,20 +22,20 @@ pre {
 }
 
 .highlight .p {
-  font-size: 1.125rem;
+  font-size: .75rem;
   line-height: 1;
 }
 
 pre {
-    counter-reset: line-numbering;
-    white-space: pre;
-    overflow-x: auto;
-    word-break: inherit;
-    word-wrap: inherit;
+  counter-reset: line-numbering;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
 }
 
 pre a {
-    background-image: none;
+  background-image: none;
 }
 
 pre a::before {
