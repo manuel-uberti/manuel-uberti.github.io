@@ -3,7 +3,7 @@ layout:     post
 title:      Switching to English for my personal website
 date:       2016-05-21
 summary:    Why am I writing in English, now!?
-categories: welcome
+categories: intro
 ---
 
 This is my new personal website.
