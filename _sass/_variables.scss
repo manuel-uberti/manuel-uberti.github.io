@@ -191,3 +191,8 @@ $footer-color: #7a7a7a;
 $footer-bg-color: #fafafa;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
+
+// Shadow
+$inline-box-shadow-color: rgba(0, 0, 0, .2);
+$inline-box-shadow-background: #fff;
+$inline-box-shadow: 0 1px 0 $inline-box-shadow-color, 0 0 0 2px $inline-box-shadow-background inset;

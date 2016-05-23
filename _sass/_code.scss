@@ -69,3 +69,15 @@ pre a:last-of-type::before {
 pre a:only-of-type::before {
   padding: 10px;
 }
+
+kbd,
+code {
+  font-family: $monospace-font-family;
+}
+
+kbd {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  box-shadow: $inline-box-shadow;
+  padding: 0 4px;
+}
