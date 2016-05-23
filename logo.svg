@@ -16,8 +16,8 @@
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/manuel/githubs/manuel-uberti/manuel-uberti.github.io/logo.png"
-   inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200">
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -63,27 +63,30 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-860.36218)">
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;stroke:#a6071b;stroke-width:3.01591524;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3006"
-       sodipodi:cx="5"
-       sodipodi:cy="94.5"
-       sodipodi:rx="95"
-       sodipodi:ry="92.5"
-       d="m 100,94.5 a 95,92.5 0 1 1 -190,0 95,92.5 0 1 1 190,0 z"
-       transform="matrix(0.98947368,0,0,1,91.052632,861.86218)" />
-    <text
-       xml:space="preserve"
-       style="font-size:75.38762665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
-       x="15.082801"
-       y="1000.0568"
-       id="text3776"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3778"
-         x="15.082801"
-         y="1000.0568"
-         style="font-size:135.69773865px;font-style:normal;font-variant:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Semi-Light">MU</tspan></text>
+    <g
+       id="g3069">
+      <path
+         transform="matrix(0.98947368,0,0,1,91.052632,861.86218)"
+         d="m 100,94.5 a 95,92.5 0 1 1 -190,0 95,92.5 0 1 1 190,0 z"
+         sodipodi:ry="92.5"
+         sodipodi:rx="95"
+         sodipodi:cy="94.5"
+         sodipodi:cx="5"
+         id="path3006"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a6071b;stroke-width:3.01591516;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3776"
+         y="1027.667"
+         x="29.566978"
+         style="font-size:123.02411652px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         xml:space="preserve"><tspan
+           style="font-size:221.44340515px;font-style:normal;font-variant:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Semi-Light"
+           y="1027.667"
+           x="29.566978"
+           id="tspan3778"
+           sodipodi:role="line">U</tspan></text>
+    </g>
   </g>
 </svg>
