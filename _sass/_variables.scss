@@ -13,27 +13,27 @@
 @font-face {
   font-family: 'Crimson';
   src: url('../fonts/crimson-bold-webfont.woff') format('woff');
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @font-face {
   font-family: 'Crimson';
   src: url('../fonts/crimson-bolditalic-webfont.woff') format('woff');
   font-style: italic;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @font-face {
   font-family: 'Crimson';
   src: url('../fonts/crimson-semibold-webfont.woff') format('woff');
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: 'Crimson';
   src: url('../fonts/crimson-semibolditalic-webfont.woff') format('woff');
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @font-face {
@@ -50,13 +50,13 @@
 @font-face {
   font-family: 'Source Sans Pro';
   src: url('../fonts/SourceSansPro-Bold.otf.woff') format('woff');
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
   src: url('../fonts/SourceSansPro-BoldIt.otf.woff') format('woff');
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -68,7 +68,7 @@
 @font-face {
   font-family: 'Source Code Pro';
   src: url('../fonts/SourceCodePro-Bold.otf.woff') format('woff');
-  font-weight: 700;
+  font-weight: 600;
 }
 
 $base-font-size: 14px !default;
