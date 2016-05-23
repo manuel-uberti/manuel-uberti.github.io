@@ -10,3 +10,6 @@
 
 # Caches
 /.sass-cache/
+
+# Backup files
+/backup/
