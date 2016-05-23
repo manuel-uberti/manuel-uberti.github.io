@@ -8,10 +8,12 @@ pre,
 code {
   font-family: $monospace-font-family;
   font-size: .75rem;
+  background-color: #FFFFFF;
 }
 
 code {
-  color: #7a7a7a;
+  color: #333;
+  padding: .11em .22em;
 }
 
 pre {
