@@ -1,8 +1,6 @@
-@import 'fonts';
-
 .pagination {
   font-size: 1rem;
-  font-family: 'Source Sans Pro';
+  font-family: $heading-font-family;
   font-weight: 300;
   text-align: center;
 }
