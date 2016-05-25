@@ -9,8 +9,8 @@ The fonts used on this site are subject to their respective licenses:
 
 - [Crimson](https://github.com/skosch/Crimson)
   [(LICENSE Crimson)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Crimson.txt)
-- [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
-  [(LICENSE Source Sans Pro)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Code%20Pro.txt)
+- [Montserrat](https://github.com/clintonb/edx-fonts)
+  [(LICENSE Montserrat)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Montserrat.txt)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
   [(LICENSE Source Code Pro)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Sans%20Pro.txt)
 
