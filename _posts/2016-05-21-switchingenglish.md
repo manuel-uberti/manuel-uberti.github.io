@@ -19,5 +19,6 @@ I decided to stop writing in Italian for different reasons:
   with English
 - I am going to have way more chances to discuss my thoughts with the world
 
-In this blog you will find short and long writings about GNU Emacs, a bit of
-Clojure and LaTeX and occasional bits on GNU/Linux.
+Beside the language, there is another difference between the two blogs. Instead
+of an article every Monday like I did on my previous website, I will write
+whenever I feel like writing. It’s a _personal_ blog, isn’t it?
