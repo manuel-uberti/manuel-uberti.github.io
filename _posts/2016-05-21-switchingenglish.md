@@ -21,4 +21,6 @@ I decided to stop writing in Italian for different reasons:
 
 Beside the language, there is another difference between the two blogs. Instead
 of an article every Monday like I did on my previous website, I will write
-whenever I feel like writing. It’s a _personal_ blog, isn’t it?
+whenever I feel like writing.
+
+It’s a _personal_ blog, isn’t it?
