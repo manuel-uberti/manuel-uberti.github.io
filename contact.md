@@ -5,18 +5,12 @@ permalink: /contact/
 tags: contact
 ---
 
-### Work ###
-
-**Boccaperta**
-
-Viale Europa 69, Thiene (VI)
-Italy
-
-[manuel@boccaperta.com](mailto:manuel@boccaperta.com)
+### Mail ###
+`(rot13 "znahry.horegv@vairagngv.bet")`
 
 ### Social ###
 
-- Jabber: manuel.uberti AT inventati DOT org
+- Jabber: `(rot13 "znahry.horegv@vairagngv.bet")`
 - Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
 
