@@ -20,4 +20,5 @@ I strongly prefer encrypted emails. You can use my
 [GPG key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt)
 when you write to me.
 
+Key ID: `CAA48F62`
 Fingerprint: `8702 9F53 2466 A6B5 E3F4 6B44 4E57 A6C4 CAA4 8F62`
