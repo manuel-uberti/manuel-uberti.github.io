@@ -10,7 +10,8 @@ tags: contact
 
 ### Social ###
 
-- Jabber: `(rot13 "znahry.horegv@vairagngv.bet")`
+- Jabber ([OTR-only](https://en.wikipedia.org/wiki/Off-the-Record_Messaging)):
+  `(rot13 "znahry.horegv@vairagngv.bet")`
 - Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
 
