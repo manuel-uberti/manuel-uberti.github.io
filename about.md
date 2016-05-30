@@ -17,7 +17,7 @@ I use [GNU Emacs](https://www.gnu.org/software/emacs/) with a
 programming (Emacs Lisp, Clojure), writing (LaTeX, Markdown) and organising my
 work (Org-mode).
 
-Java developer by day, I have been developing JEE applications more or less
+Java developer by day, I have been developing Java EE applications more or less
 since 2004, both in Italy and in the United Kingdom.
 
 I share most of my work on [GitHub](https://github.com/manuel-uberti).
