@@ -1,6 +1,13 @@
 /* Basscss Base Typography */
 
+@mixin font-feature-settings($features...) {
+  // scss-lint:disable VendorPrefix
+  font-feature-settings: $features;
+  -webkit-font-feature-settings: $features;
+}
+
 body {
+  @include font-feature-settings('onum', 'kern', 'liga', 'clig', 'dlig', 'calt');
   font-family: $font-family;
   line-height: $line-height;
   font-size: 100%;
