@@ -7,9 +7,21 @@ abbr {
   cursor: help;
 }
 
+@mixin hyphens($setting) {
+  hyphens: $setting;
+  // scss-lint:disable VendorPrefix
+  -webkit-hyphens: $setting;
+  -moz-hyphens: $setting;
+  -ms-hyphens: $setting;
+  -o-hyphens: $setting;
+}
+
 p {
+  @include hyphens(auto);
   color: #333;
   line-height: 1.5;
+  text-align: justify;
+  word-wrap: break-word;
 }
 
 small,
