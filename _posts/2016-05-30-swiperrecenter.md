@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Recenter the buffer when leaving Swiper
+title:      Recentre the buffer when leaving Swiper
 date:       2016-05-30
 summary:    How `swiper-action-recenter` helps keep the screen centred.
 categories: emacs
@@ -25,7 +25,7 @@ explained
 he was kind enough to introduce a handy `defcustom`.
 
 ```emacs-lisp
-;; Always recenter when leaving Swiper
+;; Always recentre when leaving Swiper
 (setq swiper-action-recenter t)
 ```
 
