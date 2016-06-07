@@ -63,10 +63,9 @@ To make things nicer,
 Flyspell propose the suggested corrections via the always reliable Ivy.
 
 ``` emacs-lisp
-(use-package flyspell-correct
+(use-package flyspell-correct-ivy
   :ensure t
   :after flyspell
   :bind (:map flyspell-mode-map
-              ("C-c $" . flyspell-correct-word-generic))
-  :config (setq flyspell-correct-interface 'flyspell-correct-ivy))
+              ("C-c $" . flyspell-correct-word-generic)))
 ```
