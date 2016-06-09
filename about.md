@@ -11,7 +11,7 @@ I have been using GNU/Linux and free and open source software for
 years. [Debian](https://www.debian.org/) and [GNOME](https://www.gnome.org/) are
 my daily companions and I use [GNU Emacs](https://www.gnu.org/software/emacs/)
 with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
-most of my daily activities.
+most of my activities.
 
 Java developer by day, I have been developing Java EE applications more or less
 since 2004, both in Italy and in the United Kingdom. Lately I have been focusing
