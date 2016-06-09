@@ -21,7 +21,9 @@
   }
 
   .site-header .site-title {
-    font-size: $h3;
+    font-size: $h2;
+    font-family: $heading-font-family;
+    color: #7A7A7A;
     float: left;
   }
 
