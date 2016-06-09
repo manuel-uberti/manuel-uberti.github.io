@@ -31,19 +31,15 @@ pre {
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
   word-wrap: normal;
+
+  code {
+   padding: 0;
+  }
 }
 
 .highlight .p {
   font-size: .75rem;
   line-height: 1;
-}
-
-pre {
-  counter-reset: line-numbering;
-  white-space: pre;
-  overflow-x: auto;
-  word-break: inherit;
-  word-wrap: inherit;
 }
 
 pre a {
