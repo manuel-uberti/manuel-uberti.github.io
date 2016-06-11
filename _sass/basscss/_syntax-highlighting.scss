@@ -1,113 +1,119 @@
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to deal in
-// the Software without restriction, including without limitation the rights to
-// use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-// the Software, and to permit persons to whom the Software is furnished to do so,
-// subject to the following conditions:
-
-// The above copyright notice and this permission notice shall be included in
-// all copies or substantial portions of the Software.
-
-// // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-// FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-// COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-// IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-// CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-// Taken from https://github.com/illarionvk/pygments-solarized-scss
-
-/* Code Highlighting Style for Pygments or Rouge */
-/* Solarized Light Color Scheme by Ethan Schoonover */
-/* http://ethanschoonover.com/solarized */
-
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-
 .highlight {
   -webkit-text-size-adjust: none;
-  color: $base00;
-  background: $base3;
+}
 
-  .emphasized { color: $base01; font-weight: bold; }
+.highlight .c,
+.highlight .cs,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1 {
+  color: $hljs-comment;
+  font-style: italic;
+}
 
-  // Style for line numbers
-  .linenos { color: $base1; }
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .kp {
+  color: $hljs-keyword;
+}
 
-  .bp { color: $base1; } // Name.Builtin.Pseudo
-  .c { color: $base1; font-style: italic } // Comment
-  .c1 { color: $base1; font-style: italic } // Comment.Single
-  .cm { color: $base1; font-style: italic } // Comment.Multiline
-  .cp { color: $red; font-weight: bold } // Comment.Preproc
-  .cs { color: $base1; font-weight: bold; font-style: italic } // Comment.Special
-  .err { color: $base00; background-color: $red; } // Error
-  .gd .x { color: $base00; background-color: $magenta; } // Generic.Deleted.Specific
-  .gd { color: $base00; background-color: $magenta; } // Generic.Deleted
-  .ge { font-style: italic; } // Generic.Emph
-  .gh { color: $base1; } // Generic.Heading
-  .gi .x { color: $base00; background-color: $base2; } // Generic.Inserted.Specific
-  .gi { color: $green; background-color: $base2; } // Generic.Inserted
-  .go { color: $base00; } // Generic.Output
-  .gp { color: $base01; } // Generic.Prompt
-  .gr { color: $base00; background-color: $red; } // Generic.Error
-  .gs { @extend .emphasized; } // Generic.Strong
-  .gt { color: $red; background-color: $base2; } // Generic.Traceback
-  .gu { color: $base01; } // Generic.Subheading
-  .il { color: $magenta; } // Literal.Number.Integer.Long
-  .k { color: $blue; font-weight: bold; } // Keyword
-  .kc { @extend .emphasized; } // Keyword.Constant
-  .kd { @extend .emphasized; } // Keyword.Declaration
-  .kp { @extend .emphasized; } // Keyword.Pseudo
-  .kr { @extend .emphasized; } // Keyword.Reserved
-  .kt { color: $blue; font-weight: bold } // Keyword.Type
-  .m { color: $magenta; } // Literal.Number
-  .mf { color: $magenta; } // Literal.Number.Float
-  .mh { color: $magenta; } // Literal.Number.Hex
-  .mi { color: $magenta; } // Literal.Number.Integer
-  .mo { color: $magenta; } // Literal.Number.Oct
-  .n { color: $base01; } // Name
-  .na { color: $base1; } // Name.Attribute
-  .nb { color: $cyan; } // Name.Builtin
-  .nc { color: $blue; font-weight: bold } // Name.Class
-  .ne { color: $blue; font-weight: bold } // Name.Exception
-  .nf { color: $blue; font-weight: bold } // Name.Function
-  .ni { color: $base0; } // Name.Entity
-  .nl { color: $green; }
-  .nn { color: $orange; } // Name.Namespace
-  .no { color: $yellow; } // Name.Constant
-  .nt { color: $blue; font-weight: bold; } // Name.Tag
-  .nv { color: $yellow; } // Name.Variable
-  .p { color: $base01; } // Parentheses
-  .o { color: $violet; } // Operator
-  .ow { font-weight: bold } // Operator.Word
-  .s { color: $cyan; } // Literal.String
-  .s1 { color: $cyan; } // Literal.String.Single
-  .s2 { color: $cyan; } // Literal.String.Double
-  .sb { color: $cyan; } // Literal.String.Backtick
-  .sc { color: $cyan; } // Literal.String.Char
-  .sd { color: $cyan; } // Literal.String.Doc
-  .se { color: $cyan; } // Literal.String.Escape
-  .sh { color: $cyan; } // Literal.String.Heredoc
-  .si { color: $cyan; } // Literal.String.Interpol
-  .sr { color: $green; } // Literal.String.Regex
-  .ss { color: $magenta; } // Literal.String.Symbol
-  .sx { color: $red; } // Literal.String.Other
-  .vc { color: $yellow; } // Name.Variable.Class
-  .vg { color: $yellow; } // Name.Variable.Global
-  .vi { color: $yellow; } // Name.Variable.Instance
-  .w { color: $base2; } // Text.Whitespace
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .no,
+.highlight .nd,
+.highlight .ni,
+.highlight .ne,
+.highlight .nf,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx {
+  color: $hljs-name;
+}
+
+.highlight .mi,
+.highlight .il {
+  color: $hljs-number;
+}
+
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .s3,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss,
+.highlight .s1 {
+  color: $hljs-string;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: $hljs-title;
+  font-weight: bold;
+}
+
+.highlight .k {
+  font-weight: normal;
+}
+
+.highlight .nc,
+.highlight .no {
+  color: $hljs-type;
+}
+
+.highlight .o {
+  color: $hljs-tag;
+  font-weight: normal;
+}
+
+.highlight .nb {
+  color: $hljs-attribute;
+}
+
+.highlight .sr {
+  color: $hljs-regexp;
+}
+
+.highlight .ss {
+  color: $hljs-symbol;
+}
+
+.hljs-built_in {
+  color: $hljs-built-in;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: $hljs-preprocessor;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: $hljs-deletion;
+}
+
+.hljs-addition {
+  background: $hljs-addition;
+}
+
+.diff .hljs-change {
+  background: $hljs-change;
+}
+
+.hljs-chunk {
+  color: $hljs-chunk;
 }
