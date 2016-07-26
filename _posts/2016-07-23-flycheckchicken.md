@@ -60,5 +60,3 @@ to contribute to Flycheck again. Moreover, I do hope every project I wish to
 contribute to can follow the Flycheck’s community example.
 
 Now go enjoy your on-the-fly syntax checking with CHICKEN Scheme.
-
-![Screenshot](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/images/flycheck-chicken.png)
