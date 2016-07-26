@@ -61,4 +61,4 @@ contribute to can follow the Flycheck’s community example.
 
 Now go enjoy your on-the-fly syntax checking with CHICKEN Scheme.
 
-![/home/manuel/Desktop/flycheck-chicken.png](/home/manuel/Desktop/flycheck-chicken.png)
+![Screenshot](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/images/flycheck-chicken.png)
