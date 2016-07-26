@@ -1,0 +1,23 @@
+<p>If you use the great
+<a href="https://github.com/company-mode/company-statistics">company-statistics</a> to
+improve your experience with <a href="https://company-mode.github.io/">company-mode</a>,
+chances are that you already noticed an entry called
+<code class="highlighter-rouge">company-statistics-cache.el</code> when you switch buffers with your favourite key
+binding.</p>
+
+<p>Hitting <kbd>RET</kbd> on <code class="highlighter-rouge">company-statistics-cache.el</code> could result in
+unpleasant consequences. In my case, Emacs hangs indefinitely, distracting me
+from my work and forcing me to a horrible restart.</p>
+
+<p>Fortunately, <a href="https://github.com/abo-abo">Oleh Krehel</a> introduced a new value
+for <code class="highlighter-rouge">ivy-use-ignore-default</code>: <code class="highlighter-rouge">'always</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c1">;; Always ignore buffers set in `ivy-ignore-buffers'</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">ivy-use-ignore-default</span> <span class="ss">'always</span><span class="p">)</span>
+<span class="c1">;; Ignore some buffers in `ivy-switch-buffer'</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">ivy-ignore-buffers</span> <span class="o">'</span><span class="p">(</span><span class="s">"company-statistics-cache.el"</span><span class="p">))</span>
+</code></pre>
+</div>
+
+<p>With the above setup, <code class="highlighter-rouge">company-statistics-cache.el</code> will never sneak in your
+buffer switching again.</p>

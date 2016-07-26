@@ -1,0 +1,30 @@
+<p>I always talk enthusiastically about
+<a href="https://github.com/abo-abo/swiper">Ivy</a>. As a once
+<a href="https://github.com/manuel-uberti/.emacs.d/blob/master/lisp/mu-helm.el">heavy</a>
+Helm user, I remember being afraid of regretting the complete switch to Ivy
+after a few days. It did not happen, of course, and since I made the move I have
+only found Ivy — and the related packages Swiper and Counsel — consistently
+getting better and better.</p>
+
+<p>Swiper has soon become my preferred in-buffer searching tool. Only one minor
+thing was disturbing me. After selecting the right candidate with
+<kbd>RET</kbd>, the screen scrolled unpredictably at the top, centre, or bottom
+of the buffer.</p>
+
+<p>This is due to calculations behind the scenes about windows size, as Oleh Krehel
+explained
+<a href="https://github.com/abo-abo/swiper/issues/116#issuecomment-218381046">here</a>. Fortunately,
+he was kind enough to introduce a handy <code class="highlighter-rouge">defcustom</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c1">;; Always recentre when leaving Swiper</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">swiper-action-recenter</span> <span class="no">t</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p>Now every time I leave Swiper the screen is left centred. Furthermore, it is
+possible to keep the screen centred even during candidate selection in Swiper by
+pressing <kbd>C-M-n</kbd> or <kbd>C-M-p</kbd> instead of <kbd>C-n</kbd> or
+<kbd>C-p</kbd>.</p>
+
+<p>I do not mind the scrolling when Swiper is active, but I do like having my eyes
+focused on one point of the screen when I find what I am looking for.</p>

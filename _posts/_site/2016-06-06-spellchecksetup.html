@@ -1,0 +1,62 @@
+<p>In order to simplify the portability of my Emacs setup, I devised a useful shell
+script to install everything my
+<a href="https://github.com/manuel-uberti/.emacs.d">configuration</a> needs. It is aptly
+named <a href="https://github.com/manuel-uberti/.emacs.d/blob/master/esetup">esetup</a>.</p>
+
+<p>Recently I abandoned <code class="highlighter-rouge">aspell</code> in favour of <code class="highlighter-rouge">hunspell</code>, so the script has been
+updated accordingly. However, <code class="highlighter-rouge">hunspell</code> needs some dictionaries to work with
+and they are not readily available as Debian packages.</p>
+
+<p>Instead of downloading the dictionaries from
+<a href="http://extensions.libreoffice.org/">LibreOffice Extensions</a> every time
+I install Emacs on a new machine, they are provided in my
+<a href="https://github.com/manuel-uberti/.emacs.d/tree/master/etc/dictionaries">.emacs.d repository</a>.
+Therefore, I just need to copy the files over to <code class="highlighter-rouge">/usr/share/hunspell</code>.</p>
+
+<p>A quick test with <code class="highlighter-rouge">hunspell -D</code> shows all is set up correctly.</p>
+
+<pre><code class="language-console">$ hunspell -D
+[…]
+AVAILABLE DICTIONARIES (path is not mandatory for -d option):
+/usr/share/hunspell/en_GB
+/usr/share/hunspell/it_IT
+/usr/share/hunspell/en_US
+[…]
+
+</code></pre>
+
+<p>Emacs Lisp takes care of the rest.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="k">setq</span> <span class="nv">ispell-program-name</span> <span class="p">(</span><span class="nv">executable-find</span> <span class="s">"hunspell"</span><span class="p">)</span>
+      <span class="nv">ispell-dictionary</span> <span class="s">"en_GB"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p>I write both in English and Italian, so the spell-checker must be able to switch
+dictionary on demand.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="nv">bind-key</span> <span class="s">"C-c I"</span>
+          <span class="p">(</span><span class="k">lambda</span> <span class="p">()</span>
+            <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+            <span class="p">(</span><span class="nv">ispell-change-dictionary</span> <span class="s">"it_IT"</span><span class="p">)</span>
+            <span class="p">(</span><span class="nv">flyspell-buffer</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nv">bind-key</span> <span class="s">"C-c E"</span>
+          <span class="p">(</span><span class="k">lambda</span> <span class="p">()</span>
+            <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+            <span class="p">(</span><span class="nv">ispell-change-dictionary</span> <span class="s">"en_GB"</span><span class="p">)</span>
+            <span class="p">(</span><span class="nv">flyspell-buffer</span><span class="p">)))</span>
+</code></pre>
+</div>
+
+<p>To make things nicer,
+<a href="https://github.com/d12frosted/flyspell-correct">flyspell-correct</a> makes
+Flyspell propose the suggested corrections via the always reliable Ivy.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="nb">use-package</span> <span class="nv">flyspell-correct-ivy</span>
+  <span class="ss">:ensure</span> <span class="no">t</span>
+  <span class="ss">:after</span> <span class="nv">flyspell</span>
+  <span class="ss">:bind</span> <span class="p">(</span><span class="ss">:map</span> <span class="nv">flyspell-mode-map</span>
+              <span class="p">(</span><span class="s">"C-c $"</span> <span class="o">.</span> <span class="nv">flyspell-correct-word-generic</span><span class="p">)))</span>
+</code></pre>
+</div>
