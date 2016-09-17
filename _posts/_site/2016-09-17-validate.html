@@ -1,0 +1,18 @@
+<p>Maintaining an ever-growing Emacs configuration is both fun and exhausting. It
+is easy to forget why I picked <em>that</em> value for a variable or how in the name of
+Elisp that weird snippet ended up in my init.el.</p>
+
+<p>Artur Malabarba must understand my frustration pretty well, or at least that was
+my first reaction to his
+recent <a href="https://github.com/Malabarba/validate.el">validate</a> library.</p>
+
+<p>The library has a pretty neat API, which I am sure will turn out to come in
+handy for all the Elisp developers out there. However, so far I have been
+focusing on the <code class="highlighter-rouge">validate-setq</code> macro only.</p>
+
+<p><code class="highlighter-rouge">validate-setq</code> adds validation to the regular <code class="highlighter-rouge">setq</code>, making it super-easy to
+catch mistakes that can be surprisingly hard to find. For instance, I was
+setting a lot of variables before the related packaged was required. Take a look
+at
+<a href="https://github.com/manuel-uberti/.emacs.d/commit/2217e0a1608eb9c3dfc8921be73514353b6cc035">this</a> commit
+to see how <code class="highlighter-rouge">validate-setq</code> improved my setup.</p>
