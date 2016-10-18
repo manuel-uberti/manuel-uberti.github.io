@@ -15,7 +15,7 @@ most of my activities.
 
 Software developer by day, I have been developing Java EE applications more or
 less since 2004, both in Italy and in the United Kingdom. Lately I have been
-focusing on Lisp-friendly languages such as Clojure and Scheme.
+focusing on functional programming with languages such as Clojure and Scala.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
