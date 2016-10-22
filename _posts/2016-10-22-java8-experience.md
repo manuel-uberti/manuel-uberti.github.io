@@ -20,7 +20,7 @@ brain. You can already see a pattern here, can’t you? FP stole my heart.
 I knew Java 8 stormed the object-oriented (OO from now on) community with plenty
 of FP material, but it took a new, big project and the
 brilliant [Java 8 In Action](https://www.manning.com/books/java-8-in-action) to
-convince me I could go more functional than what was I hoping for.
+convince me I could go more functional than I was hoping for.
 
 The team I work with comes from a purely OO mindset, so I was a bit reluctant to
 introduce FP ideas and solutions. I jumped right in the middle of the
