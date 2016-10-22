@@ -34,10 +34,10 @@ benefits were immediately evident: my code was getting clearer and concise, and
 programming in a declarative fashion made it easier to read and understand. My
 aim exactly.
 
-To the rest of team it all looked like syntactic sugar at first. One team member
-advised me to spread lambdas as little as possible. Fortunately, he soon came to
-appreciate my efforts and suggested to not be afraid of refactor code smells if
-I felt like it.
+To the rest of the team it all looked like syntactic sugar at first. One team
+member advised me to spread lambdas as little as possible. Fortunately, he soon
+came to appreciate my efforts and suggested not to be afraid of refactoring code
+smells if I felt like it.
 
 As much as I like working with lambdas and streams, not to mention `LocalDate`,
 the Java 8 feature that really shines in our codebase is `CompletableFuture`.
