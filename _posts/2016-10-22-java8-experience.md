@@ -29,7 +29,7 @@ arrival. The only hint of Java 8 I found was a single use of `forEach` with a
 lambda expression in it.
 
 I then began using lambda expressions, streams and the `Optional` class in
-utility classes and enumerators I could quickly wrote unit tests for. The
+utility classes and enumerators I could quickly write unit tests for. The
 benefits were immediately evident: my code was getting clearer and concise, and
 programming in a declarative fashion made it easier to read and understand. My
 aim exactly.
