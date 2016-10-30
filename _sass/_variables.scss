@@ -1,23 +1,23 @@
 // Typography
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Charis SIL';
   src: url('../fonts/CharisSIL-R.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Charis SIL';
   src: url('../fonts/CharisSIL-I.woff') format('woff');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Charis SIL';
   src: url('../fonts/CharisSIL-B.woff') format('woff');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Charis SIL';
   src: url('../fonts/CharisSIL-BI.woff') format('woff');
   font-style: italic;
   font-weight: 600;
@@ -47,7 +47,7 @@
 
 $base-font-size: 22px !default;
 $bold-font-weight: bold !default;
-$font-family: 'Crimson', serif !default;
+$font-family: 'Charis SIL', serif !default;
 $line-height: 1.5 !default;
 $heading-font-family: 'Lato', sans-serif !default;
 $heading-font-weight: 900 !default;
