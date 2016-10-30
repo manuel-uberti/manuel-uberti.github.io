@@ -8,7 +8,7 @@ tags: licensing
 The fonts used on this site are subject to their respective licenses:
 
 - [Charis SIL](http://software.sil.org/charis/)
-  [(LICENSE Charis SIL)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Crimson.txt)
+  [(LICENSE Charis SIL)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Charis%20SIL.txt)
 - [Lato](http://www.latofonts.com/lato-free-fonts/)
   [(LICENSE Lato)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Lato.txt)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
