@@ -4,9 +4,8 @@ layout: default
 {% assign posts_count = (paginator.posts | size) %}
 
 <div class="home">
-    This is a personal blog. I usually write about GNU Emacs and computer programming in general.
+    <h5><em>A personal blog about GNU Emacs and computer programming</em></h5>
     <hr/>
-    These are my latest posts. You can subscribe to the <a href="https://manuel-uberti.github.io/feed">RSS feed</a>.
     {% if posts_count > 0 %}
     <div class="posts">
         {% for post in paginator.posts %}
