@@ -13,9 +13,10 @@ my daily companions and I use [GNU Emacs](https://www.gnu.org/software/emacs/)
 with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
 most of my activities.
 
-Software developer by day, I have been developing Java EE applications more or
-less since 2004, both in Italy and in the United Kingdom. Lately I have been
-focusing on functional programming with languages such as Clojure and Scala.
+Software developer by day, I have been developing Java enterprise applications
+more or less since 2004, both in Italy and in the United Kingdom. In the last
+couple of years, my interest is shifted towards Functional Programming thanks to
+languages such as Clojure and Scala.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
