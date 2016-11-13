@@ -1,171 +1,165 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Stitchcounter</title>
-  </head>
-  <body>
-    <h1>Stitchcounter</h1>
-    <h5>A little tool to help you with knitting and crocheting</h6>
-      <p>This tool was inspired by the series &ldquo;Math for Knitters&rdquo; by <a href="https://www.youtube.com/user/verypinkknits">VeryPink</a>.<br>Developed by <a href="https://github.com/manuel-uberti/stitchcounter-js">Manuel Uberti</a>.</p>
-      <fieldset><legend><strong>Change gauge in a pattern</strong></legend>
+---
+layout: default
+---
+<h1>Stitchcounter</h1>
+<h5>A little tool to help you with knitting and crocheting</h6>
+    <p>This tool was inspired by the series &ldquo;Math for Knitters&rdquo; by <a href="https://www.youtube.com/user/verypinkknits">VeryPink</a>.<br>Developed by <a href="https://github.com/manuel-uberti/stitchcounter-js">Manuel Uberti</a>.</p>
+    <fieldset><legend><strong>Change gauge in a pattern</strong></legend>
         <em>Pattern lists gauge and width, you want to knit the same width with a different gauge.</em>
         <br><br>
         <span style="color: #dc322f" id="message1"></span>
         <table>
-          <tr>
-            <td><label for="orows">Number of rows/rounds as listed in pattern gauge:</label></td>
-            <td><input type="number" name="orows" id="orows" ></td>
-          </tr>
-          <tr>
-            <td><label for="rows">Number of rows/rounds in gauge you want to use: </label></td>
-            <td><input type="number" name="rows" id="rows" ></td>
-          </tr>
-          <tr>
-            <td><label for="ovalr">Total rows/rounds of pattern: </label></td>
-            <td><input type="number" name="ovalr" id="ovalr" ></td>
-          </tr>
+            <tr>
+                <td><label for="orows">Number of rows/rounds as listed in pattern gauge:</label></td>
+                <td><input type="number" name="orows" id="orows" ></td>
+            </tr>
+            <tr>
+                <td><label for="rows">Number of rows/rounds in gauge you want to use: </label></td>
+                <td><input type="number" name="rows" id="rows" ></td>
+            </tr>
+            <tr>
+                <td><label for="ovalr">Total rows/rounds of pattern: </label></td>
+                <td><input type="number" name="ovalr" id="ovalr" ></td>
+            </tr>
         </table>
         <div style="text-align:center;">
-          <br>
-          <button id="button1">Calculate &rarr;</button>
-          <button id="clean1">Clean</button>
-          <br><br>
+            <br>
+            <button id="button1">Calculate &rarr;</button>
+            <button id="clean1">Clean</button>
+            <br><br>
         </div>
         <table>
-          <tr>
-            <td><label for="totalr"><strong>TOTAL ROWS: </strong></label></td>
-            <td><div id="totalr"></div></td>
-          </tr>
+            <tr>
+                <td><label for="totalr"><strong>TOTAL ROWS: </strong></label></td>
+                <td><div id="totalr"></div></td>
+            </tr>
         </table>
         <br><br>
         <span style="color: #dc322f" id="message1b"></span>
         <table>
-          <tr>
-            <td><label for="osts">Number of stitches as listed in pattern gauge: </label></td>
-            <td><input type="number" name="osts" id="osts" ></td>
-          </tr>
-          <tr>
-            <td><label for="sts">Number of stitches in gauge you want to use: </label></td>
-            <td><input type="number" name="sts" id="sts" ></td>
-          </tr>
-          <tr>
-            <td><label for="ovals">Stitches to CO for your project: </label></td>
-            <td><input type="number" name="ovals" id="ovals" ></td>
-          </tr>
+            <tr>
+                <td><label for="osts">Number of stitches as listed in pattern gauge: </label></td>
+                <td><input type="number" name="osts" id="osts" ></td>
+            </tr>
+            <tr>
+                <td><label for="sts">Number of stitches in gauge you want to use: </label></td>
+                <td><input type="number" name="sts" id="sts" ></td>
+            </tr>
+            <tr>
+                <td><label for="ovals">Stitches to CO for your project: </label></td>
+                <td><input type="number" name="ovals" id="ovals" ></td>
+            </tr>
         </table>
         <div style="text-align:center;">
-          <br>
-          <button id="button1b">Calculate &rarr;</button>
-          <button id="clean1b">Clean</button>
-          <br><br>
+            <br>
+            <button id="button1b">Calculate &rarr;</button>
+            <button id="clean1b">Clean</button>
+            <br><br>
         </div>
         <table>
-          <tr>
-            <td><label for="totals"><strong>TOTAL STITCHES: </strong></label></td>
-            <td><div id="totals"></div></td>
-          </tr>
+            <tr>
+                <td><label for="totals"><strong>TOTAL STITCHES: </strong></label></td>
+                <td><div id="totals"></div></td>
+            </tr>
         </table>
-      </fieldset>
-      <br><br>
-      <fieldset><legend><strong>Calculate number of stitches to CO</strong></legend>
+    </fieldset>
+    <br><br>
+    <fieldset><legend><strong>Calculate number of stitches to CO</strong></legend>
         <em>You have a given gauge, calculate how many stitches you need to get a given dimension.</em>
         <br><br>
         <span style="color: #dc322f" id="message2"></span>
         <table>
-          <tr>
-            <td><label for="units">Dimension of swatch [4 inches, 10 cms, etc.]: </label></td>
-            <td><input type="number" name="units" id="units" ></td>
-          </tr>
-          <tr>
-            <td><label for="sts1">Stitches in gauge: </label></td>
-            <td><input type="number" name="sts1" id="sts1" ></td>
-          </tr>
-          <tr>
-            <td><label for="cm">Cms/inches of your project: </label></td>
-            <td><input type="number" name="cm" id="cm" ></td>
-          </tr>
+            <tr>
+                <td><label for="units">Dimension of swatch [4 inches, 10 cms, etc.]: </label></td>
+                <td><input type="number" name="units" id="units" ></td>
+            </tr>
+            <tr>
+                <td><label for="sts1">Stitches in gauge: </label></td>
+                <td><input type="number" name="sts1" id="sts1" ></td>
+            </tr>
+            <tr>
+                <td><label for="cm">Cms/inches of your project: </label></td>
+                <td><input type="number" name="cm" id="cm" ></td>
+            </tr>
         </table>
         <div style="text-align:center;">
-          <br>
-          <button id="button2">Calculate &rarr;</button>
-          <button id="clean2">Clean</button>
-          <br><br>
+            <br>
+            <button id="button2">Calculate &rarr;</button>
+            <button id="clean2">Clean</button>
+            <br><br>
         </div>
         <table>
-          <tr>
-            <td><label for="finals"><strong>STITCHES TO CO: </strong></label></td>
-            <td><div id="finals"></div></td>
-          </tr>
+            <tr>
+                <td><label for="finals"><strong>STITCHES TO CO: </strong></label></td>
+                <td><div id="finals"></div></td>
+            </tr>
         </table>
-      </fieldset>
-      <br><br>
-      <fieldset>
+    </fieldset>
+    <br><br>
+    <fieldset>
         <legend><strong>Calculate yardage/meter on a partial ball of yarn</strong></legend>
         <em>You have a partial ball of leftover yarn, calculate the yardage of that partial ball.</em>
         <br><br>
         <span style="color: #dc322f" id="message3"></span>
         <table>
-          <tr>
-            <td><label for="weightf">Weight of full ball of yarn: </label></td>
-            <td><input type="number" name="weightf" id="weightf" ></td>
-          </tr>
-          <tr>
-            <td><label for="yardf">Yardage/meter of full ball of yarn: </label></td>
-            <td><input type="number" name="yardf" id="yardf" ></td>
-          </tr>
-          <tr>
-            <td><label for="weightp">Weight of your partial ball of yarn: </label></td>
-            <td><input type="number" name="weightp" id="weightp" ></td>
-          </tr>
+            <tr>
+                <td><label for="weightf">Weight of full ball of yarn: </label></td>
+                <td><input type="number" name="weightf" id="weightf" ></td>
+            </tr>
+            <tr>
+                <td><label for="yardf">Yardage/meter of full ball of yarn: </label></td>
+                <td><input type="number" name="yardf" id="yardf" ></td>
+            </tr>
+            <tr>
+                <td><label for="weightp">Weight of your partial ball of yarn: </label></td>
+                <td><input type="number" name="weightp" id="weightp" ></td>
+            </tr>
         </table>
         <div style="text-align:center;">
-          <br>
-          <button id="button3">Calculate &rarr;</button>
-          <button id="clean3">Clean</button>
-          <br><br>
+            <br>
+            <button id="button3">Calculate &rarr;</button>
+            <button id="clean3">Clean</button>
+            <br><br>
         </div>
         <table>
-          <tr>
-            <td><label for="finaly"><strong>YARDAGE/METER OF YOUR PARTIAL BALL OF YARN: </strong></label></td>
-            <td><div id="finaly"></div></td>
-          </tr>
+            <tr>
+                <td><label for="finaly"><strong>YARDAGE/METER OF YOUR PARTIAL BALL OF YARN: </strong></label></td>
+                <td><div id="finaly"></div></td>
+            </tr>
         </table>
-      </fieldset>
-      <br><br>
-      <fieldset>
+    </fieldset>
+    <br><br>
+    <fieldset>
         <legend><strong>Substituting similar yarns</strong></legend>
         <em>Pattern calls for a certain amount of a specific yarn,
-          you want to know how much of a different yarn you will need for substitution.</em>
+            you want to know how much of a different yarn you will need for substitution.</em>
         <br><br>
         <span style="color: #dc322f" id="message4"></span>
         <table>
-          <tr>
-            <td><label for="numbershb">Number of skeins/hanks/balls of yarn required by the pattern: </label></td>
-            <td><input type="number" name="numbershb" id="numbershb" ></td>
-          </tr>
-          <tr>
-            <td><label for="yardageshb">Yardage/meter of one skein/hank/ball of yarn required by the pattern: </label></td>
-            <td><input type="number" name="yardageshb" id="yardageshb" ></td>
-          </tr>
-          <tr>
-            <td><label for="yardagesub">Yardage/meter of one skein/hank/ball of substituting yarn: </label></td>
-            <td><input type="number" name="yardagesub" id="yardagesub" ></td>
-          </tr>
+            <tr>
+                <td><label for="numbershb">Number of skeins/hanks/balls of yarn required by the pattern: </label></td>
+                <td><input type="number" name="numbershb" id="numbershb" ></td>
+            </tr>
+            <tr>
+                <td><label for="yardageshb">Yardage/meter of one skein/hank/ball of yarn required by the pattern: </label></td>
+                <td><input type="number" name="yardageshb" id="yardageshb" ></td>
+            </tr>
+            <tr>
+                <td><label for="yardagesub">Yardage/meter of one skein/hank/ball of substituting yarn: </label></td>
+                <td><input type="number" name="yardagesub" id="yardagesub" ></td>
+            </tr>
         </table>
         <div style="text-align:center;">
-          <br>
-          <button id="button4">Calculate &rarr;</button>
-          <button id="clean4">Clean</button>
-          <br><br>
+            <br>
+            <button id="button4">Calculate &rarr;</button>
+            <button id="clean4">Clean</button>
+            <br><br>
         </div>
         <table>
-          <tr>
-            <td><label for="totalshb"><strong>TOTAL SKEIN/HANK/BALL OF SUBSTITUTING YARN NEEDED: </strong></label></td>
-            <td><div id="totalshb"></div></td>
-          </tr>
+            <tr>
+                <td><label for="totalshb"><strong>TOTAL SKEIN/HANK/BALL OF SUBSTITUTING YARN NEEDED: </strong></label></td>
+                <td><div id="totalshb"></div></td>
+            </tr>
         </table>
-      </fieldset>
-      <script type="text/javascript" src="js/stitchcounter.js"></script>
-  </body>
-</html>
+    </fieldset>
+    <script type="text/javascript" src="js/stitchcounter.js"></script>
