@@ -1,6 +1,6 @@
 pre,
 pre code {
-  background-color: transparent;
+  background-color: none;
   border-radius: $pre-border-radius;
 }
 
@@ -13,26 +13,19 @@ code {
 
 code {
   color: #333;
-  line-height: 1.0;
+  line-height: 1.3;
   padding: .11em .22em;
   font-size: inherit;
 }
 
-@mixin overflow-scroll {
-  overflow: scroll;
-  // scss-lint:disable VendorPrefix
-  -webkit-overflow-scrolling: touch;
-}
-
 pre {
-  @include overflow-scroll;
   padding: 1.125em;
   line-height: 1.11;
-  overflow-x: scroll;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
   word-wrap: normal;
-
+  border: 1px solid $border-color;
+  border-radius: 3px;
   code {
     padding: 0;
   }
