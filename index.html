@@ -4,7 +4,7 @@ layout: default
 {% assign posts_count = (paginator.posts | size) %}
 
 <div class="home">
-    <h5><em>A personal blog about GNU Emacs and computer programming</em></h5>
+    <p>This is a personal blog about <strong>Emacs</strong> and <strong>computer programming</strong>.</p>
     <hr/>
     {% if posts_count > 0 %}
     <div class="posts">
@@ -26,5 +26,5 @@ layout: default
     {% include pagination.html %}
     {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-    {% endif %}
+        {% endif %}
 </div>
