@@ -17,7 +17,8 @@ tags: contact
 
 ### GPG pubkey  ###
 
-I strongly prefer encrypted emails, so you can use my
+I prefer encrypted emails, so you can use
+my
 [GPG key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt).
 
 - Key ID: `CAA48F62`
