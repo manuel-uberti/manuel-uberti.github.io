@@ -41,7 +41,7 @@ fills.
   (validate-setq guess-language-langcodes '((en . ("en_GB" "English"))
                                             (it . ("it_IT" "Italian")))
                  guess-language-languages '(en it)
-                 guess-language-min-paragraph-length 30)
+                 guess-language-min-paragraph-length 45)
   :diminish guess-language-mode)
 ```
 
