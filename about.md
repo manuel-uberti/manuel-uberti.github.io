@@ -22,4 +22,4 @@ Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
 Aside from programming and GNU Emacs in particular, I love cinema and write
 about it on my other
-blog: [Film in Words](https://filmsinwords.wordpress.com/).
+blog: [Films in Words](https://filmsinwords.wordpress.com/).
