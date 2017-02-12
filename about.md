@@ -20,6 +20,6 @@ towards functional programming thanks to languages such as Clojure and Scala.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
-Aside from computing and GNU Emacs in particular, my other passion is
-cinema. I have another blog for that:
-[Film in Words](https://filmsinwords.wordpress.com/).
+Aside from programming and GNU Emacs in particular, I love cinema and write
+about it on my other
+blog: [Film in Words](https://filmsinwords.wordpress.com/).
