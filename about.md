@@ -15,11 +15,11 @@ most of my activities.
 
 Software developer at [Vegan Solutions](http://vegans.it/), I have been
 developing Java enterprise applications more or less since 2004, both in Italy
-and in the United Kingdom. In the last couple of years, my interest has shifted
-towards functional programming thanks to languages such as Clojure and Scala.
+and in the United Kingdom. Lately my interest has shifted towards functional
+programming thanks to languages such as Clojure and Scala.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
-Aside from programming and GNU Emacs in particular, I love cinema and write
-about it on my other
-blog: [Films in Words](https://filmsinwords.wordpress.com/).
+Aside from computing, I love cinema and sometimes write about it on my other
+blog: [Films in Words](https://filmsinwords.wordpress.com/). Avid reader and
+music listener, I consider a cup of tea the supreme relief.
