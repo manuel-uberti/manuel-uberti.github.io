@@ -2,7 +2,7 @@
 layout:     post
 title:      Dynamically change fonts in Emacs
 date:       2017-02-26
-summary:    How to set fonts automatically based upon screen resolution.
+summary:    How to set fonts automatically based on screen resolution.
 categories: emacs
 ---
 
