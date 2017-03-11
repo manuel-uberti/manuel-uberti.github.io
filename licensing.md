@@ -7,8 +7,8 @@ tags: licensing
 
 The fonts used on this site are subject to their respective licenses:
 
-- [Fira Sans](https://github.com/mozilla/Fira/)
-  [(LICENSE Fira Sans)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Fira%20Sans.txt)
+- [Vollkorn](http://vollkorn-typeface.com/)
+  [(LICENSE Vollkorn)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Vollkorn.txt)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
   [(LICENSE Source Code Pro)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Source%20Sans%20Pro.txt)
 
