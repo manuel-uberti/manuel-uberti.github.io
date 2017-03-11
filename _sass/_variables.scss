@@ -37,6 +37,43 @@
 }
 
 @font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Regular.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Italic.woff2') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Bold.woff2') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-BoldItalic.woff2') format('woff');
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-SemiBold.woff2') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-SemiBoldItalic.woff2') format('woff');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
   font-family: 'Source Code Pro';
   src: url('../fonts/SourceCodePro-Regular.otf.woff') format('woff');
 }
@@ -51,7 +88,7 @@ $base-font-size: 20px !default;
 $bold-font-weight: bold !default;
 $font-family: 'Crimson', sans-serif !default;
 $line-height: 1.3 !default;
-$heading-font-family: 'Crimson', sans-serif !default;
+$heading-font-family: 'Fira Sans', sans-serif !default;
 $heading-font-weight: 700 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Source Code Pro', monospace !default;
