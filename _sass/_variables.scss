@@ -1,37 +1,37 @@
 // Typography
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-Regular.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-roman.woff2') format('woff');
 }
 
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-Italic.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-italic.woff2') format('woff');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-Bold.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-bold.woff2') format('woff');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-BoldItalic.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-bolditalic.woff2') format('woff');
   font-style: italic;
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-SemiBold.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-semibold.woff2') format('woff');
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Vollkorn';
-  src: url('../fonts/Vollkorn-SemiBoldItalic.woff') format('woff');
+  font-family: 'Crimson';
+  src: url('../fonts/crimson-semibolditalic.woff2') format('woff');
   font-style: italic;
   font-weight: 500;
 }
@@ -47,11 +47,11 @@
   font-weight: 600;
 }
 
-$base-font-size: 18px !default;
+$base-font-size: 22px !default;
 $bold-font-weight: bold !default;
-$font-family: 'Vollkorn', sans-serif !default;
+$font-family: 'Crimson', sans-serif !default;
 $line-height: 1.3 !default;
-$heading-font-family: 'Vollkorn', sans-serif !default;
+$heading-font-family: 'Crimson', sans-serif !default;
 $heading-font-weight: 700 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Source Code Pro', monospace !default;
