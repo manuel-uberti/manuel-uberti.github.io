@@ -13,10 +13,10 @@ my daily companions and I use [GNU Emacs](https://www.gnu.org/software/emacs/)
 with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
 most of my activities.
 
-Software developer at [Vegan Solutions](http://vegans.it/), I have been
-developing Java enterprise applications more or less since 2004, both in Italy
-and in the United Kingdom. Lately my interest has shifted towards functional
-programming thanks to languages such as Clojure and Scala.
+Software developer at [7Bridges](https://7bridges.eu/), I have been developing
+Java enterprise applications more or less since 2004, both in Italy and in the
+United Kingdom. Lately my interest has shifted towards functional programming
+thanks to languages such as Clojure and Scala.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
