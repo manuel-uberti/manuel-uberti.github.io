@@ -5,18 +5,18 @@ permalink: /about/
 tags: about
 ---
 
-My name is Manuel Uberti.
+As the name of the website aptly suggests, my name is Manuel Uberti.
 
-I have been using GNU/Linux and free and open source software for
-years. [Debian](https://www.debian.org/) and [GNOME](https://www.gnome.org/) are
-my daily companions and I use [GNU Emacs](https://www.gnu.org/software/emacs/)
-with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
-most of my activities.
+I am a happy GNU/Linux user, comfortable with but not interested in other
+operative systems. I use [GNU Emacs](https://www.gnu.org/software/emacs/) with
+a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for most
+of my activities.
 
 Software developer at [7Bridges](https://7bridges.eu/), I have been developing
 Java enterprise applications more or less since 2004, both in Italy and in the
 United Kingdom. Lately my interest has shifted towards functional programming
-thanks to languages such as Clojure and Scala.
+thanks to languages such as Clojure and Scala. If you really want me to pick a
+language I tend to avoid the winner would be PHP.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
