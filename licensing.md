@@ -7,8 +7,8 @@ tags: licensing
 
 The fonts used on this site are subject to their respective licenses:
 
-- [Crimson](https://github.com/skosch/Crimson)
-  [(LICENSE Crimson)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Crimson.txt)
+- [Charter](http://practicaltypography.com/charter.html)
+  [(LICENSE Charter)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Charter.txt)
 - [Fira Sans](https://github.com/mozilla/Fira)
   [(LICENSE Fira Sans)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Fira%20Sans.txt)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
