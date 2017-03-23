@@ -21,7 +21,7 @@ Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 I am a happy GNU/Linux user, comfortable with but not interested in other
 operative systems. I also use [GNU Emacs](https://www.gnu.org/software/emacs/)
 with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
-most my activities.
+most of my activities.
 
 Aside from computing, I love cinema and sometimes write about it on my other
 blog: [Films in Words](https://filmsinwords.wordpress.com/). Avid reader and
