@@ -9,7 +9,7 @@ tags: contact
 `(rot13 "znahry.horegv@vairagngv.bet")`
 
 ### Chat ###
-Jabber ([OTR-only](https://en.wikipedia.org/wiki/Off-the-Record_Messaging)):
+Jabber/XMPP ([OTR-only](https://en.wikipedia.org/wiki/Off-the-Record_Messaging)):
   `(rot13 "znahry.horegv@vairagngv.bet")`
 
 Recommended clients: [CoyIM](https://coy.im/), [Conversations](https://conversations.im/)
