@@ -8,10 +8,13 @@ tags: contact
 ### Mail ###
 `(rot13 "znahry.horegv@vairagngv.bet")`
 
-### Social ###
-
-- Jabber ([OTR-only](https://en.wikipedia.org/wiki/Off-the-Record_Messaging)):
+### Chat ###
+Jabber ([OTR-only](https://en.wikipedia.org/wiki/Off-the-Record_Messaging)):
   `(rot13 "znahry.horegv@vairagngv.bet")`
+
+Recommended clients: [CoyIM](https://coy.im/), [Conversations](https://conversations.im/)
+
+### Social ###
 - Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
 
