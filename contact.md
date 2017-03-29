@@ -8,8 +8,6 @@ tags: contact
 ### Mail ###
 `(rot13 "znahry.horegv@vairagngv.bet")`
 
-### GPG pubkey  ###
-
 I prefer encrypted emails, so you can use
 my
 [GPG key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt) when
