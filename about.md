@@ -7,7 +7,7 @@ tags: about
 
 Hi, my name is Manuel Uberti.
 
-Clojure developer at [7Bridges](https://7bridges.eu/), I have been developing
+Clojure developer at [7bridges](https://7bridges.eu/), I have been developing
 Java enterprise applications more or less since 2004, both in Italy and in the
 United Kingdom.
 
