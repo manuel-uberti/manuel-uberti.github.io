@@ -20,10 +20,10 @@ writing to me.
 `(rot13 "znahry.horegv@vairagngv.bet")`
 
 I prefer chatting using the Jabber/XMPP protocol,
-  with [OTR](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) enabled.
+with [OMEMO](https://en.wikipedia.org/wiki/OMEMO) enabled.
 
 Recommended clients:
-- [CoyIM](https://coy.im/) (desktop)
+- [Gajim](https://gajim.org/) (desktop)
 - [Conversations](https://conversations.im/) (mobile)
 
 ### Social ###
