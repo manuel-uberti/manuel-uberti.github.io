@@ -7,9 +7,9 @@ tags: about
 
 Hi, my name is Manuel Uberti.
 
-Clojure developer at [7bridges](https://7bridges.eu/), I have been developing
-Java enterprise applications more or less since 2004, both in Italy and in the
-United Kingdom.
+Clojure/ClojureScript developer at [7bridges](https://7bridges.eu/), I have been
+developing Java enterprise applications more or less since 2004, both in Italy
+and in the United Kingdom.
 
 Lately my interest has shifted towards functional programming thanks to
 languages such as Clojure and Scala. If you asked me to pick a language I tend
