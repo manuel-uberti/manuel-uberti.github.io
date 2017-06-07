@@ -28,5 +28,5 @@ Recommended clients:
 
 ### Social ###
 - Mastodon: [@manuel_uberti](https://functional.cafe/@manuel_uberti)
-- Twitter: [@manuel_uberti][https://twitter.com/manuel_uberti]
+- Twitter: [@manuel_uberti](https://twitter.com/manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
