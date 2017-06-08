@@ -14,10 +14,9 @@ carefully tuned [Emacs configuration](https://github.com/manuel-uberti/.emacs.d)
 dealt with everyday Clojure programming.
 
 Truth be told, I’ve never used Emacs consistently for work. Before Clojure
-I mainly did Java and Emacs support for Java is notably not as good as what it
-offers for other programming languages. Yes, I kept Emacs around for other
-stuff, but it would be a dull lie to tell I was proudly using Emacs all day in
-the office.
+I mainly did Java and Emacs support for Java is not as good as what it offers
+for other programming languages. Yes, I kept Emacs around for other stuff, but
+it would be a dull lie to tell I was proudly using Emacs all day in the office.
 
 Anyway, Clojure is the new kid in town now so it’s Emacs all the way. The
 obvious first choice is [CIDER](https://github.com/clojure-emacs/cider) and
@@ -29,7 +28,7 @@ my coding experience.
 I especially love how CIDER enables me to switch easily between Clojure and
 ClojureScript, with two REPLs ready to go and documentation just under my
 fingertips. clj-refactor enriches exploratory development with hot reloading of
-dependencies and handy adjustment of missing requires.
+dependencies and handy change of missing requires.
 
 Then there is [Projectile](https://github.com/bbatsov/projectile). Even on small
 Clojure projects we are using to test available libraries there are plenty of
