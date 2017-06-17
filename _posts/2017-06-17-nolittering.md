@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Keeping your .emacs.d clean
-date:       2017-04-29
+date:       2017-06-17
 summary:    House-cleaning with `no-littering`.
 categories: programming
 ---
