@@ -8,8 +8,8 @@ tags: about
 Hi, my name is Manuel Uberti.
 
 Clojure/ClojureScript developer at [7bridges](https://7bridges.eu/), I have been
-developing Java enterprise applications more or less since 2004, both in Italy
-and in the United Kingdom.
+developing Java enterprise applications since 2004, both in Italy and in the
+United Kingdom.
 
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Clojure and Scala. If you asked me to pick a language I tend
@@ -24,6 +24,5 @@ with a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for
 most of my activities.
 
 Aside from computing, I love cinema and sometimes write about it on my other
-blog [Films in Words](https://filmsinwords.wordpress.com/) and
-on [Mastodon](https://functional.cafe/@manuel_uberti). Avid reader and music
-listener, I consider a cup of tea to be the supreme relief.
+blog [Films in Words](https://filmsinwords.wordpress.com/). Avid reader and
+music listener, I consider a cup of tea to be the supreme relief.
