@@ -14,7 +14,7 @@ United Kingdom.
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Clojure and Scala. If you asked me to pick a language I tend
 to avoid the winner would be PHP. If you asked me to pick what language I would
-like to study next the winner would be Rust.
+like to study next the winner would be Rust. Or Haskell. Or Idris.
 
 Some of my work is available on [GitHub](https://github.com/manuel-uberti).
 
