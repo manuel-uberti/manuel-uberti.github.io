@@ -11,7 +11,7 @@ The fonts used on this site are subject to their respective licenses:
   [(LICENSE Charter)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Charter.txt)
 - [Fira Sans](https://github.com/mozilla/Fira)
   [(LICENSE Fira Sans)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Fira%20Sans.txt)
-  - [Iosevka](https://be5invis.github.io/Iosevka/)
+- [Iosevka](https://be5invis.github.io/Iosevka/)
   [(LICENSE Iosevka)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Iosevka.txt)
 
 Except where otherwise noted this site is subject to the
