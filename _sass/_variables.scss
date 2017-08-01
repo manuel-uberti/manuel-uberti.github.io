@@ -61,13 +61,26 @@
 }
 
 @font-face {
-  font-family: 'Source Code Pro';
-  src: url('../fonts/SourceCodePro-Regular.otf.woff') format('woff');
+  font-family: 'Iosevka';
+  src: url('../fonts/iosevka-ss08-regular.woff2') format('woff');
 }
 
 @font-face {
-  font-family: 'Source Code Pro';
-  src: url('../fonts/SourceCodePro-Bold.otf.woff') format('woff');
+  font-family: 'Iosevka';
+  src: url('../fonts/iosevka-ss08-bold.woff2') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url('../fonts/iosevka-ss08-italic.woff2') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url('../fonts/iosevka-ss08-bolditalic.woff2') format('woff');
+  font-style: italic;
   font-weight: 600;
 }
 
@@ -78,7 +91,7 @@ $line-height: 1.3 !default;
 $heading-font-family: 'Fira Sans', sans-serif !default;
 $heading-font-weight: 500 !default;
 $heading-line-height: 1.25 !default;
-$monospace-font-family: 'Source Code Pro', monospace !default;
+$monospace-font-family: 'Iosevka', monospace !default;
 $h1: 1.6rem !default;
 $h2: 1.5rem !default;
 $h3: 1.3rem !default;
