@@ -44,5 +44,5 @@ Now my daily workflow in Emacs is thus organised:
   hack on my Emacs configuration I do it here.
 
 Combined with [Projectile](https://github.com/bbatsov/projectile), `eyebrowse`
-is the definitive piece of the puzzle I was missing to have to an optimised work
+is the definitive piece of the puzzle I was missing to have an optimised work
 environment.
