@@ -7,12 +7,10 @@ categories: emacs
 ---
 
 I always talk enthusiastically about
-[Ivy](https://github.com/abo-abo/swiper). As a once
-[heavy](https://github.com/manuel-uberti/.emacs.d/blob/master/lisp/mu-helm.el)
-Helm user, I remember being afraid of regretting the complete switch to Ivy
-after a few days. It did not happen, of course, and since I made the move I have
-only found Ivy — and the related packages Swiper and Counsel — consistently
-getting better and better.
+[Ivy](https://github.com/abo-abo/swiper). As a once heavy Helm user, I remember
+being afraid of regretting the complete switch to Ivy after a few days. It did
+not happen, and since I made the move I have only found Ivy — and the related
+packages Swiper and Counsel — consistently getting better and better.
 
 Swiper has soon become my preferred in-buffer searching tool. Only one minor
 thing was disturbing me. After selecting the right candidate with
