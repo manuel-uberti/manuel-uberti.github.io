@@ -27,5 +27,6 @@ Recommended clients:
 - [Conversations](https://conversations.im/) (mobile)
 
 ### Social ###
-- Mastodon: [@manuel_uberti](https://functional.cafe/@manuel_uberti)
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
+- Mastodon: [@manuel_uberti](https://functional.cafe/@manuel_uberti)
+- Letterboxd: [muberti](https://letterboxd.com/muberti/)

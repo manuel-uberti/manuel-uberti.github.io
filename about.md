@@ -23,6 +23,6 @@ a [personal configuration](https://github.com/manuel-uberti/.emacs.d) for most
 of my activities.
 
 Aside from computing, I love cinema and sometimes write about it on my other
-blog [Films in Words](https://filmsinwords.wordpress.com/) and
-on [Mastodon](https://functional.cafe/@manuel_uberti). Avid reader and music
-listener, I consider a cup of tea to be the supreme relief.
+blog [Films in Words](https://filmsinwords.wordpress.com/) and on
+[Letterboxd](https://letterboxd.com/muberti/). Avid reader and music listener,
+I consider a cup of tea to be the supreme relief.
