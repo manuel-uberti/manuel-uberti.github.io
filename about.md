@@ -13,8 +13,8 @@ both in Italy and in the United Kingdom for a wide range of customers: petrol
 companies, hospitals, job centres, insurance companies, banks, fashion stores.
 
 Since 2015 my interest has shifted towards functional programming thanks to
-languages such as Clojure and Scala. Some of my work is available
-on [GitHub](https://github.com/manuel-uberti).
+languages such as Scheme and Clojure. Some of my work is available on
+[GitHub](https://github.com/manuel-uberti).
 
 I am a happy GNU/Linux user. I am comfortable with other operative systems, but
 it’s been years since the last time something different ran on my
