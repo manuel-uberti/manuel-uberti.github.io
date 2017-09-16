@@ -3,7 +3,7 @@ layout:     post
 title:      Keeping your .emacs.d clean
 date:       2017-06-17
 summary:    House-cleaning with `no-littering`.
-categories: programming
+categories: emacs
 ---
 
 How often do you have a look at your `.emacs.d` directory? If you’re anything

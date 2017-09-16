@@ -3,7 +3,7 @@ layout:     post
 title:      A better workflow with workspaces
 date:       2017-08-06
 summary:    Organising window configurations with `eyebrowse`.
-categories: programming
+categories: emacs
 ---
 
 I am not a big fan of workspaces on my desktop environments, maybe because to me
