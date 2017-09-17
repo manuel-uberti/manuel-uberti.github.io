@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Taming closing delimiters in your s-expressions
+title:      Taming closing delimiters in my s-expressions
 date:       2017-09-17
-summary:    How `syntactic-close` can simplifying Lisp editing.
+summary:    How `syntactic-close` can simplify Lisp editing.
 categories: emacs
 ---
 
