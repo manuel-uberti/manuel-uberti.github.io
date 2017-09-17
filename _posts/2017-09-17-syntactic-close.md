@@ -17,7 +17,7 @@ I have `sp-kill-sexp` bound to <kbd>C-M-k</kbd>, however out of habit
 I often use <kbd>C-k</kbd> to kill a line, which in my configuration is set up
 as Artur Malabarba explained in his [Kill Entire Line with Prefix
 Argument](http://endlessparentheses.com/kill-entire-line-with-prefix-argument.html). Doing
-that in the middle of a s-expression creates unnerving chaos.
+that in the middle of an s-expression creates unnerving chaos.
 
 Smartparens comes with a handy binding to temporarily disable the enforced
 balancing and let me insert a closing delimiter. Just pressing <kbd>C-q</kbd>
