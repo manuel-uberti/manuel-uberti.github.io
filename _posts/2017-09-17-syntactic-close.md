@@ -13,9 +13,9 @@ editing. With Lisp-like languages in particular, I enable
 `smartparens-strict-mode` to keep my s-expressions balanced even when I happen
 to use `delete-char` or `kill-word` dangerously near a closing parenthesis.
 
-However, out of habit I often use <kbd>C-k</kbd> to kill a line, which in my
-configuration is set up as Artur Malabarba explained in his [Kill Entire Line
-with Prefix
+I have `sp-kill-sexp` bound to <kbd>C-M-k</kbd>, however out of habit
+I often use <kbd>C-k</kbd> to kill a line, which in my configuration is set up
+as Artur Malabarba explained in his [Kill Entire Line with Prefix
 Argument](http://endlessparentheses.com/kill-entire-line-with-prefix-argument.html). Doing
 that in the middle of a s-expression creates unnerving chaos.
 
