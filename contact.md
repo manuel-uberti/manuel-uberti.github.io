@@ -28,5 +28,4 @@ Recommended clients:
 
 ### Social ###
 - GitHub: [manuel-uberti](https://github.com/manuel-uberti)
-- Mastodon: [@manuel_uberti](https://functional.cafe/@manuel_uberti)
 - Letterboxd: [muberti](https://letterboxd.com/muberti/)
