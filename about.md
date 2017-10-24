@@ -10,9 +10,10 @@ tags: about
 Hi, my name is Manuel Uberti.
 
 Clojure and ClojureScript developer at [7bridges](https://7bridges.eu/),
-I started my career in 2004 developing Java enterprise applications. I worked
-both in Italy and in the United Kingdom for a wide range of customers: petrol
-companies, hospitals, job centres, insurance companies, banks, fashion stores.
+I started my career in 2004 developing Java enterprise applications. I have
+worked both in Italy and in the United Kingdom for a wide range of customers:
+petrol companies, hospitals, job centres, insurance companies, banks, fashion
+stores.
 
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure. Some of my work is available on
