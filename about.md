@@ -9,15 +9,23 @@ tags: about
 
 Hi, my name is Manuel Uberti.
 
-Clojure and ClojureScript developer at [7bridges](https://7bridges.eu/),
 I started my career in 2004 developing Java enterprise applications. I have
 worked both in Italy and in the United Kingdom for a wide range of customers:
 petrol companies, hospitals, job centres, insurance companies, banks, fashion
 stores.
 
 Since 2015 my interest has shifted towards functional programming thanks to
-languages such as Scheme and Clojure. Some of my work is available on
-[GitHub](https://github.com/manuel-uberti).
+languages such as Scheme and Clojure.
+
+My open source work is available on [GitHub](https://github.com/manuel-uberti),
+and these are some my projects:
+
+- [boodle](https://github.com/manuel-uberti/boodle): a single page application
+  in Clojure and ClojureScript for in-house accounting
+- [carter](https://github.com/7bridges-eu/carter): Twitter analysis with Clojure
+  and OrientDB
+- [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
+  a little JavaScript tool to help you with knitting and crocheting
 
 Aside from computing, I love cinema and sometimes write about it on my other
 blog [Films in Words](https://filmsinwords.wordpress.com/) and on
