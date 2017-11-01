@@ -17,8 +17,8 @@ stores.
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure.
 
-My open source work is available on [GitHub](https://github.com/manuel-uberti),
-and these are some my projects:
+My open source work is available on
+[GitHub](https://github.com/manuel-uberti). These are some of my projects:
 
 - [boodle](https://github.com/manuel-uberti/boodle): a single page application
   in Clojure and ClojureScript for in-house accounting
