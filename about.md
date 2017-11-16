@@ -27,8 +27,8 @@ My open source work is available on
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
   a little JavaScript tool to help you with knitting and crocheting
 
-Aside from computing, I love cinema and sometimes write about it on my other
-blog [Films in Words](https://filmsinwords.wordpress.com/) and on
+Aside from computing, I love cinema and write about it on my other blog [Films
+in Words](https://filmsinwords.wordpress.com/) and on
 [Letterboxd](https://letterboxd.com/muberti/). Avid reader and music listener,
 I consider a cup of tea to be the supreme relief.
 
