@@ -20,8 +20,8 @@ languages such as Scheme and Clojure.
 My open source work is available on
 [GitHub](https://github.com/manuel-uberti). These are some of my projects:
 
-- [boodle](https://github.com/manuel-uberti/boodle): a single page application
-  in Clojure and ClojureScript for in-house accounting
+- [boodle](https://manuel-uberti.github.io/programming/2017/11/26/boodle/):
+  a single page application in Clojure and ClojureScript for in-house accounting
 - [carter](https://github.com/7bridges-eu/carter): Twitter analysis with Clojure
   and OrientDB
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
