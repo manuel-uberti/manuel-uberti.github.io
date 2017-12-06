@@ -22,7 +22,7 @@ My open source work is available on
 
 - [boodle](https://manuel-uberti.github.io/programming/2017/11/26/boodle/):
   a single page application in Clojure and ClojureScript for in-house accounting
-- [remys](https://github.com/7bridges-eu/remys): a Clojure library that provides
+- [remys](https://github.com/7bridges-eu/remys): a Clojure tool that provides
   REST APIs to interact with MySQL databases
 - [carter](https://github.com/7bridges-eu/carter): Twitter analysis with Clojure
   and OrientDB
