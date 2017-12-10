@@ -31,8 +31,10 @@ My open source work is available on
 
 Aside from computing, I love cinema and write about it on my other blog [Films
 in Words](https://filmsinwords.wordpress.com/) and on
-[Letterboxd](https://letterboxd.com/muberti/). Avid reader and music listener,
-I consider a cup of tea to be the supreme relief.
+[Letterboxd](https://letterboxd.com/muberti/). I track the books I read on
+[Goodreads](https://www.goodreads.com/user/show/74813419-manuel-uberti) and I am
+an avid music listener. A cup of tea is the supreme relief, and I cannot be
+convinced otherwise.
 
 ### Website
 
