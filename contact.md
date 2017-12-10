@@ -25,7 +25,3 @@ with [OMEMO](https://en.wikipedia.org/wiki/OMEMO) enabled.
 Recommended clients:
 - [Gajim](https://gajim.org/) (desktop)
 - [Conversations](https://conversations.im/) (mobile)
-
-### Social ###
-- [GitHub](https://github.com/manuel-uberti)
-- [Letterboxd](https://letterboxd.com/muberti/)
