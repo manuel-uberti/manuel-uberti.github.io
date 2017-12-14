@@ -18,14 +18,15 @@ Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure.
 
 My open source work is available on
-[GitHub](https://github.com/manuel-uberti). These are some of my projects:
+[GitHub](https://github.com/manuel-uberti). These are some of the projects
+I made or I contributed to:
 
 - [boodle](https://manuel-uberti.github.io/programming/2017/11/26/boodle/):
   a single page application in Clojure and ClojureScript for in-house accounting
 - [remys](https://github.com/7bridges-eu/remys): a Clojure tool that provides
   REST APIs to interact with MySQL databases
-- [carter](https://github.com/7bridges-eu/carter): Twitter analysis with Clojure
-  and OrientDB
+- [clj-odbp](https://github.com/7bridges-eu/clj-odbp): a Clojure driver for
+  [OrientDB](http://orientdb.com/orientdb/) binary protocol
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
   a little JavaScript tool to help you with knitting and crocheting
 
