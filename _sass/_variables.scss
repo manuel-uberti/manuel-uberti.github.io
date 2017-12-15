@@ -84,14 +84,20 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/RobotoSlab-Regular.woff2') format('woff');
+}
+
 $base-font-size: 20px !default;
 $bold-font-weight: bold !default;
-$font-family: 'Charter', sans-serif !default;
+$font-family: 'Charter', serif !default;
 $line-height: 1.3 !default;
 $heading-font-family: 'Fira Sans', sans-serif !default;
 $heading-font-weight: 500 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Iosevka', monospace !default;
+$title-font-family: 'Roboto Slab', serif !default;
 $h1: 1.6rem !default;
 $h2: 1.5rem !default;
 $h3: 1.3rem !default;
