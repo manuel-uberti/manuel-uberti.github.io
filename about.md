@@ -37,6 +37,9 @@ in Words](https://filmsinwords.wordpress.com/) and on
 an avid music listener. A cup of tea is the supreme relief, and I cannot be
 convinced otherwise.
 
+[Get in touch](https://manuel-uberti.github.io/contact/) if you want a detailed
+curriculum vitae.
+
 ### Website
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and a modified
