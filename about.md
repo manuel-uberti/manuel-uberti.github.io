@@ -58,6 +58,3 @@ It uses the following fonts:
 
 The source code of the entire website is available on
 [GitHub](https://github.com/manuel-uberti/manuel-uberti.github.io).
-
-Except where otherwise noted this site is subject to the
-[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
