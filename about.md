@@ -19,7 +19,7 @@ languages such as Scheme and Clojure.
 
 My open source work is available on
 [GitHub](https://github.com/manuel-uberti). These are some of the projects
-I made or I contributed to:
+I created or contributed to:
 
 - [boodle](https://manuel-uberti.github.io/programming/2017/11/26/boodle/):
   a single page application in Clojure and ClojureScript for in-house accounting
