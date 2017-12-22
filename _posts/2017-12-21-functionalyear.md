@@ -17,7 +17,7 @@ programming. I just needed something bold to pull you in, sorry.
 Now, how does it feel having worked with Clojure for ~~almost~~ a year?
 
 Here at [7bridges](https://7bridges.eu/) we had our fair share of projects. The
-open-source ones are just a selected few:
+open source ones are just a selected few:
 [clj-odbp](https://github.com/7bridges-eu/clj-odbp), a driver for OrientDB
 binary protocol; [carter](https://github.com/7bridges-eu/carter), an SPA to show
 how our driver works; [remys](https://github.com/7bridges-eu/remys), a little
