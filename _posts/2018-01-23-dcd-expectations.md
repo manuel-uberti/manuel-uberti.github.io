@@ -20,7 +20,7 @@ bunch of resolutions without losing myself in total exuberance.
 I know the list of speakers is not ready yet, but surely something new and good
 is waiting for me. This is usually what happens with the talks once the
 conference I missed makes the videos available, therefore I am pretty confident
-there is going to be plenty of food for my brain.
+there is going to be a lot of food for my brain.
 
 ### Learn something better
 As far as my Clojure projects go, there is still plenty I have to
