@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Getting ready for Dutch Clojure Days
-date:       2018-01-23
+date:       2018-01-24
 summary:    Resolutions for my first Clojure conference.
 categories: programming
 ---
