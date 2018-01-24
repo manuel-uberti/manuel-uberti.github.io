@@ -13,8 +13,8 @@ YouTube from the likes of Clojure/conj, clojuTRE and Clojure/west.
 
 No need to sound depressing, though. Thanks to [7bridges](https://7bridges.eu),
 I will happily attend [Dutch Clojure Days 2018](http://clojuredays.org/) on
-April 21. As much as my enthusiasm is hard to contain, I plan to fulfil a bunch
-of resolutions without losing myself in total exuberance.
+April 21st. As much as my enthusiasm is hard to contain, I plan to fulfil a
+bunch of resolutions without losing myself in total exuberance.
 
 ### Learn something new
 I know the list of speakers is not ready yet, but surely something new and good
