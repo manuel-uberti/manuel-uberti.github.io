@@ -30,6 +30,6 @@ amateur in me is eager to become a Clojure programmer worth his salt.
 ### Join the community
 Last but not least, I will set aside my never-ending fight with sociability and
 enjoy the Clojure community for real. I’ll be in Amsterdam from Friday afternoon
-to Sunday evening, so you will have plenty of time to join me in some healthy
+to Sunday evening, so you will have enough time to join me in some healthy
 discussions about your favourite programming language. Or Emacs, if you fancy
 wild topics.
