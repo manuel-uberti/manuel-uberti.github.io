@@ -30,13 +30,6 @@ I created or contributed to:
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
   a little JavaScript tool to help you with knitting and crocheting
 
-Aside from computing, I love cinema and write about it on my other blog [Films
-in Words](https://filmsinwords.wordpress.com/) and on
-[Letterboxd](https://letterboxd.com/muberti/). I track my books on
-[Goodreads](https://www.goodreads.com/user/show/74813419-manuel-uberti) and I am
-an avid music listener. A cup of tea is the supreme relief, and I cannot be
-convinced otherwise.
-
 [Get in touch](https://manuel-uberti.github.io/contact/) if you want a detailed
 curriculum vitae.
 
