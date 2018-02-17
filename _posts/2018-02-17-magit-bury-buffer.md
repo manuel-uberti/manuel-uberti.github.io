@@ -27,7 +27,7 @@ Following Jonas’ tip, this is what I devised:
 
 ``` emacs-lisp
 (defun mu-magit-kill-buffers (param)
-  "Kill all Magit buffers."
+  "Restore window configuration and kill all Magit buffers."
   (let ((buffers (magit-mode-get-buffers)))
     (magit-restore-window-configuration)
     (mapc #'kill-buffer buffers)))
@@ -98,7 +98,7 @@ and apply it only for `magit-status-mode-map`:
 
 ``` emacs-lisp
 (defun mu-magit-kill-buffers ()
-  "Kill all Magit buffers."
+  "Restore window configuration and kill all Magit buffers."
   (interactive)
   (let ((buffers (magit-mode-get-buffers)))
     (magit-restore-window-configuration)
