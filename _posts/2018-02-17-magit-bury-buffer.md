@@ -28,7 +28,6 @@ Following Jonas’ tip, this is what I devised:
 ``` emacs-lisp
 (defun mu-magit-kill-buffers (param)
   "Kill all Magit buffers."
-  (interactive)
   (let ((buffers (magit-mode-get-buffers)))
     (magit-restore-window-configuration)
     (mapc #'kill-buffer buffers)))
@@ -93,13 +92,22 @@ There is still one problem to solve. Setting `magit-bury-buffer-function` this
 way makes <kbd>q</kbd> always kill *every* Magit buffer. This is not what I need
 when I am using, for instance, `magit-log-buffer-file`.
 
-Hence it’s better to apply my custom function only for `magit-status-mode-map`:
+Hence it’s better to make my custom function
+[interactive](https://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Interactive.html)
+and apply it only for `magit-status-mode-map`:
 
 ``` emacs-lisp
+(defun mu-magit-kill-buffers ()
+  "Kill all Magit buffers."
+  (interactive)
+  (let ((buffers (magit-mode-get-buffers)))
+    (magit-restore-window-configuration)
+    (mapc #'kill-buffer buffers)))
+
 (bind-key "q" #'mu-magit-kill-buffers magit-status-mode-map)
 ```
 
-Bonus point: we can safely remove the unused `param` now.
+Bonus point: the unused `param` is gone.
 
 <hr/>
 
