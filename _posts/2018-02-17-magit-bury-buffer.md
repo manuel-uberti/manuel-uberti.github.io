@@ -26,7 +26,7 @@ to clean up Magit-related buffers when the work is done.
 Following Jonas’ tip, this is what I devised:
 
 ``` emacs-lisp
-(defun mu-magit-kill-buffers ()
+(defun mu-magit-kill-buffers (param)
   "Kill all Magit buffers."
   (interactive)
   (let ((buffers (magit-mode-get-buffers)))
@@ -98,6 +98,8 @@ Hence it’s better to apply my custom function only for `magit-status-mode-map
 ``` emacs-lisp
 (bind-key "q" #'mu-magit-kill-buffers magit-status-mode-map)
 ```
+
+Bonus point: we can safely remove the unused `param` now.
 
 <hr/>
 
