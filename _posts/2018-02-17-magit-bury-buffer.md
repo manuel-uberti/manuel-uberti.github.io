@@ -26,8 +26,9 @@ to clean up Magit-related buffers when the work is done.
 Following Jonas’ tip, this is what I devised:
 
 ``` emacs-lisp
-(defun mu-magit-kill-buffers (param)
+(defun mu-magit-kill-buffers ()
   "Kill all Magit buffers."
+  (interactive)
   (let ((buffers (magit-mode-get-buffers)))
     (magit-restore-window-configuration)
     (mapc #'kill-buffer buffers)))
@@ -87,6 +88,16 @@ If you’re wondering why I am using the sharp quote (`#'`) when setting the va
 of `magit-bury-buffer-function`, you can simply trust [the sage
 advice](http://endlessparentheses.com/get-in-the-habit-of-using-sharp-quote.html)
 of Artur Malabarba.
+
+There is still one problem to solve. Setting `magit-bury-buffer-function` this
+way makes <kbd>q</kbd> always kill *every* Magit buffer. This is not what I need
+when I am using, for instance, `magit-log-buffer-file`.
+
+Hence it’s better to apply my custom function only for `magit-status-mode-map`:
+
+``` emacs-lisp
+(bind-key "q" #'mu-magit-kill-buffers magit-status-mode-map)
+```
 
 <hr/>
 
