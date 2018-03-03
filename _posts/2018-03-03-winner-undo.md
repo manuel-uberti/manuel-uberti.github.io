@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Refactoring my windows restoring solution
-date:       2018-03-01
+date:       2018-03-03
 summary:    Better reusability with `funcall`.
 categories: emacs
 ---
