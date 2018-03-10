@@ -42,7 +42,7 @@ satisfying with the mode line before trying `moody`.
     <img src="/images/modeline.png">
 </figure>
 
-Now look at that. It just feels awesome.
+Now look at that. It *feels* awesome.
 
 The number `2` on the left is my little variation on the
 [eyebrowse](https://manuel-uberti.github.io/emacs/2017/08/06/eyebrowse/) segment
