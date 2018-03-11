@@ -18,8 +18,8 @@ go-to package. I considered
 [spaceline](https://github.com/TheBB/spaceline) didn’t last long. Eventually,
 I rolled my own spin and never looked for an external solution again.
 
-Recently, [Jonas Bernoulli](https://github.com/tarsius) – of
-[Magit](https://magit.vc) fame – unveiled two new packages expressly dedicated
+Recently, [Jonas Bernoulli](https://github.com/tarsius) — of
+[Magit](https://magit.vc) fame — unveiled two new packages expressly dedicated
 to the mode line: [minions](https://github.com/tarsius/minions) and
 [moody](https://github.com/tarsius/moody).
 
