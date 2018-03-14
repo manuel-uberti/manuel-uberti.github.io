@@ -42,16 +42,5 @@ curriculum vitae.
 This website is powered by [Jekyll](https://jekyllrb.com/) and a modified
 version of [Pixyll](http://pixyll.com/).
 
-It uses the following fonts:
-
-- [Charter](http://practicaltypography.com/charter.html)
-  [(LICENSE Charter)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Charter.txt)
-- [Fira Sans](https://github.com/mozilla/Fira)
-  [(LICENSE Fira Sans)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Fira%20Sans.txt)
-- [Iosevka](https://be5invis.github.io/Iosevka/)
-  [(LICENSE Iosevka)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Iosevka.txt)
-- [Roboto Slab](https://github.com/avdeev/roboto-slab)
-  [(LICENSE Roboto Slab)](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/fonts/LICENSE%20Roboto%20Slab.txt)
-
 The source code of the entire website is available on
 [GitHub](https://github.com/manuel-uberti/manuel-uberti.github.io).
