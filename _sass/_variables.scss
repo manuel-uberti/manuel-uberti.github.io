@@ -1,7 +1,7 @@
 // Typography
 @font-face {
   font-family: 'Linux Libertine';
-  src: url('../fonts/LinLibertine_R') format('woff');
+  src: url('../fonts/LinLibertine_R.woff') format('woff');
 }
 
 @font-face {
@@ -187,7 +187,7 @@ $hljs-chunk: $light-gray;
 $footer-border-top: thin solid #f3f3f3;
 $footer-padding: $space-2;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fff;
+$footer-bg-color: #f8f8f8;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 
