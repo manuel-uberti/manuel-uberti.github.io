@@ -3,7 +3,7 @@ layout:     post
 title:      Elements of Clojure
 date:       2018-03-18
 summary:    On the lasting impact of IT books.
-categories: programming, literature
+categories: literature
 ---
 
 Few days ago, Zach Tellman published a complete draft of his upcoming book
