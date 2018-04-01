@@ -96,8 +96,9 @@ permalink:    pretty
 paginate:     6
 sass:
   compressed: true
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
