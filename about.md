@@ -16,7 +16,7 @@ companies, banks, fashion stores, colours and additives factories.
 
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure. At the moment my daily job involves
-Clojure and ClojureScript.
+Clojure and ClojureScript, and I am studying Haskell in my spare time.
 
 My open source work is available on
 [GitHub](https://github.com/manuel-uberti). These are some of the projects
