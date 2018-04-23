@@ -2,7 +2,7 @@
 layout:     post
 title:      Dutch Clojure Days 2018 round-up
 date:       2018-04-23
-summary:    Comments on my experience at the conference
+summary:    Comments on my experience at the conference.
 categories: programming
 ---
 
