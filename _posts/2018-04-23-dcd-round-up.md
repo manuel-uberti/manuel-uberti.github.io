@@ -12,9 +12,11 @@ for [Dutch Clojure Days](http://clojuredays.org/). My first Clojure-only
 conference, my first proper face-to-face with the community. How could I not be
 excited?
 
-<figure>
-    <img src="/images/dcd.jpg">
-</figure>
+<div style="text-align: center">
+    <figure>
+        <img src="/images/dcd.jpg">
+    </figure>
+</div>
 
 On Saturday 21st at 8:30 am sharp we were at the TQ building’s reception,
 greeted by [Carlo Sciolla](https://twitter.com/skuro). A couple of words on the
