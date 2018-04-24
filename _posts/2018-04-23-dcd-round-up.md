@@ -76,7 +76,7 @@ Rebel” aptly entitled “REPL REPL”. If you weren’t there, well, you don�
 what you missed.
 
 Dutch Clojure Days left me with the impression that the Clojure community is
-alive and hard-working, and its heart is in the right place. Ideas flourishes,
-projects booms, boundaries gets stretched. We can only be thankful to the DCD
+alive and hard-working, and its heart is in the right place. Ideas flourish,
+projects boom, boundaries get stretched. We can only be thankful to the DCD
 stuff for being able to set up such a pleasant event, and just asking us to join
 them and share our passion together.
