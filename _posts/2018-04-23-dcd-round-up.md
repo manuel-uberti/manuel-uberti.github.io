@@ -42,7 +42,7 @@ algorithms and I will hunt histograms pretty soon.
 
 [Srihari Sriraman](https://twitter.com/sriharisriraman) with “Practical
 Generative Testing Patterns” blew my mind and, if you fancy ratings and such,
-was as the highlight of the day. We all know
+was the highlight of the day. We all know
 [test.check](https://github.com/clojure/test.check) is good, but the approach of
 Srihari to automation, seeding relevant data and testing plausible behaviours
 left me eager to grab my keyboard and implement something similar.
