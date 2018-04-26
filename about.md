@@ -12,7 +12,7 @@ Hi, my name is Manuel Uberti.
 I started my career in 2004 developing Java enterprise applications. I have
 worked both in Italy and in the United Kingdom on software deployed to a wide
 range of customers: petrol companies, hospitals, job centres, insurance
-companies, banks, fashion stores, colours and additives factories.
+companies, banks, fashion stores, colour and additive factories.
 
 Since 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure. At the moment my daily job involves

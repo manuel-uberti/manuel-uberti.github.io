@@ -54,7 +54,7 @@ and easy-of-use of GraphQL, an interesting alternative to REST for better APIs.
 The lightning talks kicked off with some magical REPL-debugging from [Valentin
 Waeselynck](https://twitter.com/val_waeselynck). [scope-capture](https://github.com/vvvvalvalval/scope-capture)
 looked promising, and I can only hope for an integration with CIDER. Dr Roland
-Kay reminded us the usefulness of clojure.spec, although if I had to base my
+Kay reminded us of the usefulness of clojure.spec, although if I had to base my
 opinion of clojure.spec on his talk, it roughly looked like the type-system
 Clojure is missing. No trolling intended. [Thomas van der
 Veen](https://twitter.com/thomasvdv007) hit the MQTT broker pedal, mixing Java
@@ -78,5 +78,5 @@ what you missed.
 Dutch Clojure Days left me with the impression that the Clojure community is
 alive and hard-working, and its heart is in the right place. Ideas flourish,
 projects boom, boundaries get stretched. We can only be thankful to the DCD
-stuff for being able to set up such a pleasant event, asking us only to join
-them and share our passion together.
+staff for being able to set up such a pleasant event, asking us only to join
+them to share our passion.
