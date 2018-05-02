@@ -29,6 +29,8 @@ I created or contributed to:
   REST APIs to interact with MySQL databases
 - [clj-odbp](https://github.com/7bridges-eu/clj-odbp): a Clojure driver for
   [OrientDB](http://orientdb.com/orientdb/) binary protocol
+- [doneburn-theme](https://github.com/manuel-uberti/doneburn-theme): a light
+  theme for Emacs
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
   a little JavaScript tool to help you with knitting and crocheting
 
