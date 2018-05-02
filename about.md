@@ -34,8 +34,9 @@ I created or contributed to:
 - [stitchcounter-js](https://github.com/manuel-uberti/stitchcounter-js):
   a little JavaScript tool to help you with knitting and crocheting
 
-As a passionate programmer, I follow the tenets described in the
-[Programmer’s Oath](https://github.com/Widdershin/programmers-oath).
+The tenets of the
+[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
+software development.
 
 [Get in touch](https://manuel-uberti.github.io/contact/) if you want a detailed
 curriculum vitae.
