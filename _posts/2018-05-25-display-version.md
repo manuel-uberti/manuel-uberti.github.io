@@ -66,5 +66,5 @@ with all the details I want.
     <img src="/images/version.png">
 </figure>
 
-A simple <kbd>q</kbd> will close the buffer, and I pretty sure I can add more
+A simple <kbd>q</kbd> will close the buffer, and I am pretty sure I can add more
 useful stuff in there. For now, it suffices.
