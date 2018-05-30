@@ -25,22 +25,15 @@ from Drew Adams on Emacs StackExchange. His code does way much more than I need
 though, so I stripped down the inessential and turned everything into this:
 
 ``` emacs-lisp
-(defun mu--call-process-to-string (process options)
-  "Call PROCESS with OPTIONS and return the result in a string."
-  (with-temp-buffer
-    (and (eq 0
-             (call-process process nil '(t nil) nil options))
-         (buffer-string))))
-
 (defun mu--os-version ()
   "Call `lsb_release' to retrieve OS version."
   (replace-regexp-in-string
    "Description:\\|[\t\n\r]+" ""
-   (mu--call-process-to-string "lsb_release" "-d")))
+   (shell-command-to-string "lsb_release -d")))
 
 (defun mu--gnome-version ()
   "Call `gnome-shell' to retrieve GNOME version."
-  (mu--call-process-to-string "gnome-shell" "--version"))
+  (shell-command-to-string "gnome-shell --version"))
 
 ;;;###autoload
 (defun mu-display-version ()
