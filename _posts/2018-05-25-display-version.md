@@ -26,7 +26,7 @@ though, so I stripped down the inessential and turned everything into this:
 
 ``` emacs-lisp
 (defun mu--call-process-to-string (process options)
-  "Call PROCESS with OPTIONS using `call-process'."
+  "Call PROCESS with OPTIONS and return the result in a string."
   (with-temp-buffer
     (and (eq 0
              (call-process process nil '(t nil) nil options))
