@@ -2,7 +2,7 @@
 layout:     post
 title:      What’s the theme?
 date:       2018-06-01
-summary:    A little function to find the active Emacs colour theme name.
+summary:    A function to find the active Emacs colour theme name.
 categories: emacs
 ---
 
