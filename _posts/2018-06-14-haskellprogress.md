@@ -22,7 +22,7 @@ Coming from Clojure made the first chapters pretty straightforward. This is not
 to Haskell detriment, of course. It just felt good to be able to reason about
 lists, recursions, and folds without too much of an effort. Types and
 typeclasses is where the real fun began, and I can say so far so
-good. Specifying the type of every function, even if it could be safely omitted,
+good. Specifying the type of every function, even when it can be safely omitted,
 is simple and useful, and it is helping me get a better grasp of the power of
 static typing.
 
