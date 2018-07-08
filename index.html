@@ -4,6 +4,9 @@ layout: default
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
+    <p>Hi, I'm Manuel! Welcome to my blog.</p>
+    <p>Below are my latest posts, but you can browse the <a href="http://https://manuel-uberti.github.io/archive/">archive</a> to find them all. You can follow my writings via <a href="https://manuel-uberti.github.io/feed.xml">RSS feeds</a>.</p>
+    <hr/>
     {% if posts_count > 0 %}
     <div class="posts">
         {% for post in paginator.posts %}
