@@ -7,7 +7,7 @@ tags: about
 
 ### Me
 
-Hi, my name is Manuel Uberti.
+My name is Manuel Uberti.
 
 I started my career in 2004 developing Java enterprise applications. I have
 worked both in Italy and in the United Kingdom on software deployed to a wide
