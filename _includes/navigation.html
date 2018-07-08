@@ -1,9 +1,4 @@
 {% for page in site.pages %}
-{% if page.tags contains "archive" %}
-<a href="{{ page.url }}">{{ page.title }}</a>
-{% endif %}
-{% endfor %}
-{% for page in site.pages %}
 {% if page.tags contains "about" %}
 <a href="{{ page.url }}">{{ page.title }}</a>
 {% endif %}
@@ -13,4 +8,3 @@
 <a href="{{ page.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
-<a href="https://manuel-uberti.github.io/feed.xml">RSS feed</a>
