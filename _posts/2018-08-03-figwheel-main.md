@@ -98,7 +98,7 @@ Following the instructions, I also customize some options in
 
 Refer to the
 [documentation](https://github.com/bhauman/figwheel-main/blob/master/doc/figwheel-main-options.md)
-if you want to check what other options are available.
+to see what other options are available.
 
 The last change I have to make is in my index page. Figwheel Main outputs the
 compiled JavaScript file in `target/public/cljs-out/boodle-main.js`, so I only
