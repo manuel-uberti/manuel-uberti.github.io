@@ -101,7 +101,7 @@ Refer to the
 if you want to check what other options are available.
 
 The last change I have to make is in my index page. Figwheel Main outputs the
-compiled JavaScript file in `target/public/cljs-out/boodle-man.js`, so I only
+compiled JavaScript file in `target/public/cljs-out/boodle-main.js`, so I only
 need to modify the reference to it:
 
 ``` clojure
