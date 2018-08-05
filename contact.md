@@ -5,10 +5,10 @@ permalink: /contact/
 tags: contact
 ---
 
-`(rot13 "znahry.horegv@vairagngv.bet")`
-
 If you have any questions about me and my experience, or if you like to talk all
 things Emacs, just drop me an email.
+
+`(rot13 "znahry.horegv@vairagngv.bet")`
 
 I prefer encrypted emails, so you can use my [GPG
 key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt)
