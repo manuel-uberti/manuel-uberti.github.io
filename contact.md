@@ -5,7 +5,6 @@ permalink: /contact/
 tags: contact
 ---
 
-### Mail ###
 `(rot13 "znahry.horegv@vairagngv.bet")`
 
 If you have any questions about me and my experience, or if you like to talk all
