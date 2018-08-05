@@ -11,7 +11,7 @@ tags: contact
 If you have any questions about me and my experience, or if you like to talk all
 things Emacs, just drop me an email.
 
-I tend to prefer encrypted emails, so you can use my [GPG
+I prefer encrypted emails, so you can use my [GPG
 key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt)
 when writing to me.
 
