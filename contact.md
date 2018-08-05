@@ -6,9 +6,9 @@ tags: contact
 ---
 
 If you have any questions about me and my experience, or if you like to talk all
-things Emacs, just drop me an email.
+things Emacs, just drop me an email at:
 
-`(rot13 "znahry.horegv@vairagngv.bet")`
+`manuel DOT uberti AT inventati DOT org`
 
 I prefer encrypted emails, so you can use my [GPG
 key](https://github.com/manuel-uberti/manuel-uberti.github.io/blob/master/pubkey.txt)
