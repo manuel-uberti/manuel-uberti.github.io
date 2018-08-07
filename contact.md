@@ -6,7 +6,7 @@ tags: contact
 ---
 
 If you have any questions about me and my experience, or if you like to talk all
-things Emacs, just drop me an email at:
+things Emacs, just drop me an email at
 [manuel.uberti@inventati.org](mailto:manuel.uberti@inventati.org)
 
 I prefer encrypted emails, so you can use my [GPG
