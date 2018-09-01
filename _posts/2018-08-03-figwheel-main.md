@@ -6,7 +6,7 @@ summary:    How I replaced `lein-figwheel` with `figwheel-main`.
 categories: programming
 ---
 
-If you are Clojure/ClojureScript programmer, you know [Bruce
+If you are a Clojure/ClojureScript programmer, you know [Bruce
 Hauman](https://github.com/bhauman) and chances are he is one of your personal
 heroes. If you are not already in love with him, just watch his [awesome talk on
 Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E) and join the club.
