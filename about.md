@@ -19,15 +19,15 @@ languages such as Scheme and Clojure. At the moment my daily job involves
 Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and I am studying
 Haskell in my spare time.
 
-My open source work is available on [GitHub](https://github.com/manuel-uberti).
+My open source work is available on
+[GitHub](https://github.com/manuel-uberti). [Get in
+touch](https://manuel-uberti.github.io/contact/) if you want a detailed
+curriculum vitae.
 
 The tenets of the
 [Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
 software development. I, Manuel Uberti, hereby commit to the [Never Again
 pledge](https://neveragain.tech). Please stand with me and hold me to it.
-
-[Get in touch](https://manuel-uberti.github.io/contact/) if you want a detailed
-curriculum vitae.
 
 ### Website
 
