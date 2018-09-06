@@ -23,7 +23,7 @@ My open source work is available on [GitHub](https://github.com/manuel-uberti).
 
 The tenets of the
 [Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
-software development. I, Manuel Uberti, hereby commit to the [neveragain.tech
+software development. I, Manuel Uberti, hereby commit to the [Never Again
 pledge](https://neveragain.tech). Please stand with me and hold me to it.
 
 [Get in touch](https://manuel-uberti.github.io/contact/) if you want a detailed
