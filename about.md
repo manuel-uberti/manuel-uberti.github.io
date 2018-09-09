@@ -14,10 +14,11 @@ worked both in Italy and in the United Kingdom on software deployed to a wide
 range of customers: petrol companies, hospitals, job centres, insurance
 companies, banks, fashion stores, colour and additive factories.
 
-Since 2015 my interest has shifted towards functional programming thanks to
-languages such as Scheme and Clojure. At the moment my daily job involves
-Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and I am studying
-Haskell in my spare time.
+In 2015 my interest has shifted towards functional programming thanks to
+languages such as Scheme and Clojure. Since
+[2017](https://manuel-uberti.github.io/programming/2017/03/12/anewjob/) my daily
+job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and
+I am studying Haskell in my spare time.
 
 My open source work is available on
 [GitHub](https://github.com/manuel-uberti). [Get in
@@ -25,9 +26,8 @@ touch](https://manuel-uberti.github.io/contact/) if you want a detailed
 curriculum vitae.
 
 The tenets of the
-[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
-software development. I, Manuel Uberti, hereby commit to the [Never Again
-pledge](https://neveragain.tech). Please stand with me and hold me to it.
+[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) and the
+[Never Again pledge](https://neveragain.tech) guide all my software development.
 
 ### Website
 
