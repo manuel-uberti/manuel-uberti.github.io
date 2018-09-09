@@ -21,18 +21,17 @@ job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and
 I am studying Haskell in my spare time.
 
 My open source work is available on
-[GitHub](https://github.com/manuel-uberti). [Get in
-touch](https://manuel-uberti.github.io/contact/) if you want a detailed
-curriculum vitae.
-
-The tenets of the
+[GitHub](https://github.com/manuel-uberti). The tenets of the
 [Programmer’s Oath](https://github.com/Widdershin/programmers-oath) and the
 [Never Again pledge](https://neveragain.tech) guide all my software development.
+
+[Get in
+touch](https://manuel-uberti.github.io/contact/) if you want a detailed
+curriculum vitae.
 
 ### Website
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and a modified
-version of [Pixyll](http://pixyll.com/).
-
-The source code of the entire website is available on
+version of [Pixyll](http://pixyll.com/). The source code of the entire website
+is available on
 [GitHub](https://github.com/manuel-uberti/manuel-uberti.github.io).
