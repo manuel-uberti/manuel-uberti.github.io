@@ -20,10 +20,10 @@ languages such as Scheme and Clojure. Since
 job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and
 I am studying Haskell in my spare time.
 
-My open source work is available on
-[GitHub](https://github.com/manuel-uberti). The tenets of the
-[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) and the
-[Never Again pledge](https://neveragain.tech) guide all my software development.
+My open source work is available on [GitHub](https://github.com/manuel-uberti).
+The tenets of the
+[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
+software development.
 
 [Get in
 touch](https://manuel-uberti.github.io/contact/) if you want a detailed
