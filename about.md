@@ -25,10 +25,9 @@ The tenets of the
 [Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
 software development.
 
-I am also a cinephile, but I have [another
-blog](https://filmsinwords.wordpress.com/) for that. [Get in
-touch](https://manuel-uberti.github.io/contact/) if you want a detailed
-curriculum vitae.
+I am also a cinephile, but I have [another blog](https://www.filmsinwords.eu)
+for that. [Get in touch](https://manuel-uberti.github.io/contact/) if you want a
+detailed curriculum vitae.
 
 ### Website
 
