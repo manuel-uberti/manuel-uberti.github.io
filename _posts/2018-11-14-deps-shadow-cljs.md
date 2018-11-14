@@ -80,6 +80,13 @@ and `moment` via `yarn`.
 $ yarn add pikaday moment
 ```
 
+Since `boodle` relies on `re-frame`, I had to install three other libraries to
+make `shadow-cljs` build my code happily:
+
+``` shell
+$ yarn add react react-dom create-react-class
+```
+
 In the namespace where I use them, the `:require` had to be changed in:
 
 ``` clojure
@@ -97,13 +104,6 @@ And the code had to be adapted:
       instance (pikaday. opts)]
     ;; … other ClojureScript code …
 )
-```
-
-Since `boodle` relies on `re-frame`, I had to install three other libraries to
-make `shadow-cljs` build my code happily:
-
-``` shell
-$ yarn add react react-dom create-react-class
 ```
 
 However, a project setup is not ready unless I can work on it via Emacs. These
