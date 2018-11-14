@@ -30,11 +30,11 @@ The first thing to change in order to accommodate Figwheel Main is my
 `project.clj`. A new version of ClojureScript is necessary:
 
 ``` clojure
-:dependencies 
+:dependencies
 [ ;; … more dependencies …
   [org.clojure/clojurescript "1.10.312"]
-  ;; … more dependencies … 
-]                
+  ;; … more dependencies …
+]
 ```
 
 Then, new values for `:source-paths` and `:resource-paths`:
