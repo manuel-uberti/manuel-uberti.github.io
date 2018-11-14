@@ -72,6 +72,40 @@ Basic setup, straight from the manual pages. Notice that `:output-dir` refers to
 the same `resources` directory configured in `deps.edn`. This tells
 `shadow-cljs` to place the build output exactly where I need.
 
+The other important change is in the CLJS libraries I use. `shadow-cljs` does
+not support [CLJSJS](https://cljsjs.github.io/), so I had to install `pikaday`
+and `moment` via `yarn`.
+
+``` shell
+$ yarn add pickaday moment
+```
+
+In the namespace where I use them, the `:require` had to be changed in:
+
+``` clojure
+(:require ;; … other requires …
+          ["react-dom" :refer [findDOMNode]]
+          ["pikaday" :as pikaday])
+```
+
+And the code had to be adapted:
+
+``` clojure
+(let [default-opts {:field (findDOMNode this)
+                    ;; … other options
+                   }
+      instance (pikaday. opts)]
+    ;; … other ClojureScript code
+)
+```
+
+Since we `boodle` relies on `re-frame`, I also had to install three other
+libraries to make `shadow-cljs` build my code happily:
+
+``` shell
+$ yarn add react react-dom create-react-class
+```
+
 However, a project setup is not ready unless I can work on it via Emacs. These
 are the steps I made to have a working CLJ/CLJS development environment. When
 [this issue](https://github.com/clojure-emacs/cider/issues/2447) will be fixed
