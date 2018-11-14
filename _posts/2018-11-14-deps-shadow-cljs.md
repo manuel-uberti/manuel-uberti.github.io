@@ -87,7 +87,7 @@ make `shadow-cljs` build my code happily:
 $ yarn add react react-dom create-react-class
 ```
 
-In the namespace where I use them, the `:require` had to be changed in:
+In the namespace where I use them, the `:require` had to be changed:
 
 ``` clojure
 (:require ;; … other requires …
