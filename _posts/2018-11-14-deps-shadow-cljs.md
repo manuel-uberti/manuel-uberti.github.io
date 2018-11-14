@@ -92,10 +92,10 @@ And the code had to be adapted:
 
 ``` clojure
 (let [default-opts {:field (findDOMNode this)
-                    ;; … other options
+                    ;; … other options …
                    }
       instance (pikaday. opts)]
-    ;; … other ClojureScript code
+    ;; … other ClojureScript code …
 )
 ```
 
