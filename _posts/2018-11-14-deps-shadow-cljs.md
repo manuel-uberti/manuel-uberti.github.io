@@ -120,7 +120,7 @@ First, I added a couple of dependencies in `shadow-cljs.edn`:
 ```
 
 Then I removed everything Figwheel Main related from the `.dir-locals.el` file
-in `boodle` root directory:
+located in the root directory of `boodle`:
 
 ``` emacs-lisp
 ((nil
