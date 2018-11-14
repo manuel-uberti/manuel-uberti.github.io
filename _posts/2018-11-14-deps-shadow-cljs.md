@@ -41,7 +41,7 @@ line.
 Speaking of aliases, they are invaluable. With `:run` I can use `clj -A:run`
 instead of `lein run`, and with `clj -A:outdated -a outdated` I can easily check
 for outdated dependencies in my `deps.edn` thanks to
-[depot](https://github.com/Olical/depot). Unit tests are row handled by
+[depot](https://github.com/Olical/depot). Unit tests are now handled by
 [kaocha](https://github.com/lambdaisland/kaocha), and as per its instructions
 I have a `bin/kaocha` file which picks up the `:test` alias and runs all my
 tests.
