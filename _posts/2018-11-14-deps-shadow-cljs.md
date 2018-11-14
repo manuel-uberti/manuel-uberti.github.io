@@ -99,8 +99,8 @@ And the code had to be adapted:
 )
 ```
 
-Since we `boodle` relies on `re-frame`, I also had to install three other
-libraries to make `shadow-cljs` build my code happily:
+Since `boodle` relies on `re-frame`, I also had to install three other libraries
+to make `shadow-cljs` build my code happily:
 
 ``` shell
 $ yarn add react react-dom create-react-class
