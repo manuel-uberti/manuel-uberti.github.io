@@ -77,7 +77,7 @@ not support [CLJSJS](https://cljsjs.github.io/), so I had to install `pikaday`
 and `moment` via `yarn`.
 
 ``` shell
-$ yarn add pickaday moment
+$ yarn add pikaday moment
 ```
 
 In the namespace where I use them, the `:require` had to be changed in:
