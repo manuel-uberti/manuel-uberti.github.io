@@ -65,7 +65,7 @@ Flyspell propose the suggested corrections via the always reliable Ivy.
 ``` emacs-lisp
 (use-package flyspell-correct-ivy
   :ensure t
-  :after flyspell
+  :demand t
   :bind (:map flyspell-mode-map
               ("C-c $" . flyspell-correct-word-generic)))
 ```
