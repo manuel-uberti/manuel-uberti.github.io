@@ -58,7 +58,8 @@ This is my `shadow-cljs.edn`:
 
 ``` clojure
 {:source-paths ["src/cljs"]
- :nrepl {:port 8777}
+ :nrepl {:port 8777
+         :middleware [refactor-nrepl.middleware/wrap-refactor]}
  :dependencies [
                  ;; … ClojureScript dependencies …
                ]
