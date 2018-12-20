@@ -17,13 +17,8 @@ companies, banks, fashion stores, colour and additive factories.
 In 2015 my interest has shifted towards functional programming thanks to
 languages such as Scheme and Clojure. Since
 [2017](https://manuel-uberti.github.io/programming/2017/03/12/anewjob/) my daily
-job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/), and
-I am studying Haskell in my spare time.
-
-My open source work is available on [GitHub](https://github.com/manuel-uberti).
-The tenets of the
-[Programmer’s Oath](https://github.com/Widdershin/programmers-oath) guide all my
-software development.
+job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/). My
+open source work is available on [GitHub](https://github.com/manuel-uberti).
 
 I am also a cinephile, but I have [another blog](https://www.filmsinwords.eu)
 for that. [Get in touch](https://manuel-uberti.github.io/contact/) if you want a
