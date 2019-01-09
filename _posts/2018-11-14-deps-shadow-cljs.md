@@ -139,10 +139,10 @@ From a terminal, I used `shadow-cljs watch boodle` to have `shadow-cljs` build
 `boodle` and offer me a nice nREPL server listening on port `8777`, the one
 I specified in `shadow-cljs.edn`.
 
-Back in CIDER, `cider-connect` brought up a REPL connected to `shadow-cljs`
-nREPL server, and from there I used `(shadow/nrepl-select :boodle)` to switch to
-a CLJS REPL. Connecting to `boodle` via the browser finalized the connection
-between my code and the CLJS environment.
+Back in CIDER, `cider-connect-cljs` brought up a REPL connected to `shadow-cljs`
+nREPL server, and let me select the build I want it operating on (default is
+`dev`, I just typed in `boodle`). Connecting to `boodle` via the browser
+finalized the connection between my code and the CLJS environment.
 
 A great journey. Once again, `boodle` proved fertile ground to understand the
 Clojure ecosystem and play with it to learn something new. If you want more
