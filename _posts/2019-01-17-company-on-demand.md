@@ -26,4 +26,4 @@ That’s it.
 To get the list of candidates back when I need, I have `company-complete` bound
 to <kbd>C-c c</kbd>.
 
-Simple and easy.
+Nice and easy.
