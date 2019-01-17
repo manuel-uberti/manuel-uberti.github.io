@@ -23,7 +23,7 @@ It’s pretty simple to turn off `company-mode` automatic completion:
 
 That’s it.
 
-To get the list of candidates back when I need it, I have `company-complete`
-bound to <kbd>C-c c</kbd>.
+To get the list of candidates back when I need, I have `company-complete` bound
+to <kbd>C-c c</kbd>.
 
 Simple and easy.
