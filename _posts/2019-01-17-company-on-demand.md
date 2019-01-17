@@ -13,8 +13,8 @@ becoming accustomed to the list of candidates popping up whenever the automatic
 completion kicks in.
 
 However, more often than not what I need is in-buffer, context-aware completion,
-and in this case `dabbrev-completion`, bound to <kbd>C-.</kbd>, or
-`dabbrev-expand`, bound to <kbd>C-,</kbd>, are enough.
+and in this case `dabbrev-expand` or `dabbrev-completion`, which I have bound to
+<kbd>C-,</kbd> and <kbd>C-.</kbd> respectively, are enough.
 
 It’s pretty simple to turn off `company-mode` automatic completion:
 
