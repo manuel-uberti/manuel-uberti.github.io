@@ -67,7 +67,7 @@ breeze.
 The last three talks reflected experiences of using Clojure for business. [Josh
 Glover](https://twitter.com/jmglov), [Philip Mates](https://twitter.com/pmatey)
 and [Pierre-Yves Ritschard](https://twitter.com/pyr) shared with us the journeys
-of their companies and projects and how designing, developing and testing have
+of their companies and projects and how designing, developing, and testing have
 only improved since their move to our beloved language.
 
 Drinks followed before a bit of REPL-driven comedy courtesy of Ray
