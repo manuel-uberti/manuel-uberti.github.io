@@ -36,7 +36,7 @@ However, if I am not in a project chances are I want to switch to a buffer tha
 doesn’t belong to a project, especially since I usually enter a project before
 switching to one of its buffers.
 
-[nswbuff](https://github.com/joostkremers/nswbuff) have previews and
+[nswbuff](https://github.com/joostkremers/nswbuff) has previews and
 back-and-forth navigation, so it still offers a nicer solution to buffer
 switching. This is Emacs, of course, so you know the deal: endless
 possibilities.
