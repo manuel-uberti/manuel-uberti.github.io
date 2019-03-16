@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Switch buffers (Take 2)
+title:      Switching buffers (Take 2)
 date:       2019-03-16
 summary:    A custom function to switch buffers.
 categories: emacs
