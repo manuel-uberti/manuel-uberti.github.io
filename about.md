@@ -21,7 +21,9 @@ job involves Clojure and ClojureScript at [7bridges](https://7bridges.eu/). My
 open source work is available on [GitHub](https://github.com/manuel-uberti).
 
 I am also a cinephile, but I have [another blog](https://www.filmsinwords.eu)
-for that. [Get in touch](https://manuel-uberti.github.io/contact/) if you want a
+for that.
+
+[Get in touch](https://manuel-uberti.github.io/contact/) if you want a
 detailed curriculum vitae.
 
 ### Website
