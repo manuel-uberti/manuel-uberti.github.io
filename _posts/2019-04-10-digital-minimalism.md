@@ -61,7 +61,7 @@ these key steps:
   week
 
 The trick, as Newport points out, is not just understanding what you value most
-and whether technology helps you getting it or not, but occupying the spare time
+and whether technology helps you get it or not, but occupying the spare time
 with something else, possibly unrelated to technology. And so, in my case, it
 means more time with my wife, longer walks with our dog, more writing, more
 cooking, and more books. Rewarding leisure, and it’s just the beginning.
