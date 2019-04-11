@@ -23,7 +23,7 @@ The big giants like Facebook and Twitter don’t matter either, because I stopp
 using them a long while ago. The problem is everything else. [Aggregating RSS
 feeds](https://manuel-uberti.github.io/emacs/2017/08/01/elfeed/) seemed like the
 right move at the beginning, but checking them everyday has turned out to be a
-time-consuming experience much like browsing news website to keep up to date.
+time-consuming experience much like browsing news websites to keep up to date.
 Reddit lures me in constantly, even though the small percentage of valuable
 content just reminds me of Twitter. GitHub usually offers more click-worthy
 updates, but the repositories I deem interesting are far less than the
