@@ -14,9 +14,8 @@ experiments with GNU/Linux and GNU Emacs.
 I decided to stop writing in Italian for different reasons:
 
 - my English is good enough to give it a try
-- I am already writing in English for my
-  [film blog](https://filmsinwords.wordpress.com/), so it makes sense to stick
-  with English
+- I am already writing in English for my [film
+  blog](https://www.filmsinwords.eu/), so it makes sense to stick with English
 - I am going to have way more chances to discuss my thoughts with the world
 
 Beside the language, there is another difference between the two blogs. Instead
