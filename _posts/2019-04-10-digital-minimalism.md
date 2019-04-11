@@ -27,9 +27,9 @@ time-consuming experience much like browsing news websites to keep up to date.
 Reddit lures me in constantly, even though the small percentage of valuable
 content just reminds me of Twitter. GitHub usually offers more click-worthy
 updates, but the repositories I deem interesting are far less than the
-uninteresting one. Letterboxd, a staple of my cinema obsession, may be the worse
-in this regard; its *Activity* tab is the drug I can’t resist, and yet I usually
-find no more than a couple of beautiful reviews a week.
+uninteresting ones. Letterboxd, a staple of my cinema obsession, may be the
+worse in this regard; its *Activity* tab is the drug I can’t resist, and yet
+I usually find no more than a couple of beautiful reviews a week.
 
 All these considerations are the outcome of reading [Digital
 Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism) by
