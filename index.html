@@ -4,29 +4,29 @@ layout: default
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
-    <p>Hi, I'm Manuel! Welcome to my blog.</p>
-    <p>Below are my latest posts, or you can browse the <a href="https://manuel-uberti.github.io/archive/">archive</a> to
+  <p>Hi, I'm <a href="https://manuel-uberti.github.io/about/">Manuel</a>! Welcome to my blog.</p>
+  <p>Below are my latest posts, or you can browse the <a href="https://manuel-uberti.github.io/archive/">archive</a> to
     see all my writings. You can also subscribe to the <a href="https://manuel-uberti.github.io/feed.xml">RSS feeds</a>.</p>
-    <hr/>
-    {% if posts_count > 0 %}
-    <div class="posts">
-        {% for post in paginator.posts %}
-        <div class="post py1">
-            <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h3 post-title">{{ post.title }}</h3></a>
-            <p class="post-summary">
-                {% if post.summary %}
-                {{ post.summary | markdownify }}
-                {% else %}
-                {{ post.excerpt | markdownify }}
-                {% endif %}
-            </p>
-        </div>
-        {% endfor %}
-    </div>
-
-    {% include pagination.html %}
-    {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
+  <hr/>
+  {% if posts_count > 0 %}
+  <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post py1">
+      <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h3 post-title">{{ post.title }}</h3></a>
+      <p class="post-summary">
+        {% if post.summary %}
+        {{ post.summary | markdownify }}
+        {% else %}
+        {{ post.excerpt | markdownify }}
         {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+  {% else %}
+  <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
+    {% endif %}
 </div>
