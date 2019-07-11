@@ -56,3 +56,9 @@ Provided you set `memento-mori-birth-date` and activate `memento-mori-mode`,
 adding the function to
 [after-init-hook](https://doc.endlessparentheses.com/Var/after-init-hook.html)
 does the rest.
+
+Note that you need to activate [Lexical
+Binding](https://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Lexical-Binding.html#Using-Lexical-Binding)
+in your init file to use `mu-display-memento-mori`[^1].
+
+[^1]: Thanks to Martin Buchmann for pointing this out.
