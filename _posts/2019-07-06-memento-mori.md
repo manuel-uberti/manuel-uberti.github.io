@@ -61,6 +61,6 @@ Note that you need to activate [Lexical
 Binding](https://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Lexical-Binding.html#Using-Lexical-Binding)
 in your init file to use `mu-display-memento-mori`[^1].
 
-#### Notes ####
+## Notes ##
 
 [^1]: Thanks to Martin Buchmann for pointing this out.
