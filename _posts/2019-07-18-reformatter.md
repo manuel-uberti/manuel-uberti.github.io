@@ -30,8 +30,8 @@ xml-format</kbd> in an XML buffer to have it nicely printed.
 Note that setting `:mode` to `nil` tells `reformatter-define` to not create a
 minor mode, which I don’t need in this particular case. The minor mode could be
 useful if you want your formatter to be called automatically when you save a
-buffer. For instance, without changing the default setting for `:mode`, you
-could set up the formatter in a project via `.dir-locals.el` with:
+buffer. For instance, without changing the default setting for `:mode` you could
+set up the formatter in a project via `.dir-locals.el` with:
 
 ``` emacs-lisp
 ((nxml-mode
