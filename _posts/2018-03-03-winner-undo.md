@@ -22,8 +22,15 @@ Let’s enable `winner-mode`, first, because `winner-undo` comes with it.
 ```
 
 `winner-mode` automatically takes care of storing window configurations, thus
-I can safely remove functions like
-[mu-ibuffer-open](https://github.com/manuel-uberti/.emacs.d/blob/9e9ba09aed83aeb056a57785060b110a1b8e3f41/lisp/mu-buffers.el).
+I can safely remove functions like `mu-ibuffer-open`:
+
+``` emacs-lisp
+(defun mu-ibuffer-open ()
+  "Open Ibuffer after storing the current window configuration."
+  (interactive)
+  (mu-push-window-configuration)
+  (ibuffer))
+```
 
 Now I only need to call `winner-undo` when I exit the desired, *fullframed*
 buffer[^symbol].

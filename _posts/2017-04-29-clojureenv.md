@@ -6,12 +6,10 @@ summary:    My current setup for Clojure programming.
 categories: programming
 ---
 
-It’s already been a month since I started
-my
-[new job](https://manuel-uberti.github.io/programming/2017/03/12/anewjob/). All
-is going well and just as expected, and it’s been interesting to see how my
-carefully tuned [Emacs configuration](https://github.com/manuel-uberti/.emacs.d)
-dealt with everyday Clojure programming.
+It’s already been a month since I started my [new
+job](https://manuel-uberti.github.io/programming/2017/03/12/anewjob/). All is
+going well and just as expected, and it’s been interesting to see how my
+carefully tuned Emacs configuration dealt with everyday Clojure programming.
 
 Truth be told, I’ve never used Emacs consistently for work. Before Clojure
 I mainly did Java and Emacs support for Java is not as good as what it offers

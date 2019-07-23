@@ -7,19 +7,13 @@ categories: emacs
 ---
 
 In order to simplify the portability of my Emacs setup, I devised a useful shell
-script to install everything my
-[configuration](https://github.com/manuel-uberti/.emacs.d) needs. It is aptly
-named [esetup](https://github.com/manuel-uberti/.emacs.d/blob/master/esetup).
+script to install everything my needs.
 
 Recently I abandoned `aspell` in favour of `hunspell`, so the script has been
 updated accordingly. However, `hunspell` needs some dictionaries to work with
-and they are not readily available as Debian packages.
-
-Instead of downloading the dictionaries from
-[LibreOffice Extensions](http://extensions.libreoffice.org/) every time
-I install Emacs on a new machine, they are provided in my
-[.emacs.d repository](https://github.com/manuel-uberti/.emacs.d/tree/master/etc/dictionaries).
-Therefore, I just need to copy the files over to `/usr/share/hunspell`.
+and they are not readily available as Debian packages, but as [LibreOffice
+Extensions](http://extensions.libreoffice.org/). Therefore, I just need to copy
+the files over to `/usr/share/hunspell`.
 
 A quick test with `hunspell -D` shows all is set up correctly.
 

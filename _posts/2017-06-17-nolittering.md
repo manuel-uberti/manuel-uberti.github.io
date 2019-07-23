@@ -30,9 +30,8 @@ No extra setup is required. Place this snippet somewhere at the beginning of
 your `init.el` file and you are set. Use Emacs for a while and then go back
 checking `.emacs.d`: nice, huh?
 
-To be honest, I wiped out my `.emacs.d` directory, cloned my
-configuration [from GitHub](https://github.com/manuel-uberti/.emacs.d) and
-started from fresh with `no-littering` installed. Too much, maybe, but I was
-eager to see how good this package is. And yes, it is good.
+To be honest, I wiped out my `.emacs.d` directory and started from fresh with
+`no-littering` installed. Too much, maybe, but I was eager to see how good this
+package is. And yes, it is good.
 
 House-cleaning has never been so easy.

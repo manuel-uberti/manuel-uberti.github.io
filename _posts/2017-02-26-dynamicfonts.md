@@ -6,10 +6,10 @@ summary:    How to set font size automatically based on screen resolution.
 categories: emacs
 ---
 
-I take my [Emacs configuration](https://github.com/manuel-uberti/.emacs.d) with
-me on every computer I use. I also plug a big external display —and the awesome
-Das Keyboard 4 Ultimate— during long coding sessions, so it is only natural that
-I have to tailor my setup to accommodate different font sizes.
+I take my Emacs configuration with me on every computer I use. I also plug a big
+external display —and the awesome Das Keyboard 4 Ultimate— during long coding
+sessions, so it is only natural that I have to tailor my setup to accommodate
+different font sizes.
 
 Being the customizable editor that Emacs is, it wasn’t hard to devise a neat
 trick to please my needs.
