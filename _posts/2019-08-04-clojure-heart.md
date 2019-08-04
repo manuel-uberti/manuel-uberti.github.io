@@ -93,8 +93,8 @@ Thank you [speakers](https://heartofclojure.eu/speakers): singling out one of
 you would be unfair and completely pointless. You all inspired me, in one way or
 the other.
 
-Thank you Saskia: you teach the beauty of reaching out, and I will treasure the
-words on emotion management for a long while.
+Thank you Saskia: you teach me the beauty of reaching out, and I will treasure
+the words on emotion management for a long while.
 
 Thank you Bozhidar: no, not for just CIDER this time. For everything, including
 the unparalleled dancing skills.
