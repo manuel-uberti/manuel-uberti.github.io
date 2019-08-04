@@ -83,8 +83,9 @@ feelings at stake. Come on.
 
 But before turning off the lights:
 
-Thank you [Arne](https://github.com/plexus) and thank you [Martin](https://github.com/martinklepsch): you conceived the impossible and made it
-happen. Please make it happen again.
+Thank you [Arne](https://github.com/plexus) and thank you
+[Martin](https://github.com/martinklepsch): you conceived the impossible and
+made it happen. Please make it happen again.
 
 Thank you Heart of Clojure’s program committee and reviewers: Arne and Martin
 couldn’t have made it without you.
