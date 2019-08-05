@@ -71,7 +71,7 @@ of her workshops sooner or later.
 Probably co-opted by the aforementioned brain, my mind wandered in similar
 doubts when it came to the lightning talks, but in five minutes
 [Connie](https://twitter.com/waffles193) silenced both my brain and my mind.
-I think I’ve hold my breath and stood still throughout her entire session,
+I think I’ve held my breath and stood still throughout her entire session,
 struck in my seat by the genius of an eleven-year old’s crafts. More than
 anything else, she was the heart at the Heart of Clojure.
 
