@@ -56,7 +56,7 @@ Linder](http://www.saskialindner.com/) and [Bozhidar
 Batsov](https://github.com/bbatsov) there was no such thing as boredom in the
 air.
 
-At the same time, though, I have to admit I was a bit sceptic about the extra
+At the same time, though, I have to admit I was a bit sceptical about the extra
 activities. Again, the Heart of Clojure’s masterminds put the people in charge,
 and so anyone could devise an activity covering the spare time in the evenings,
 during the long afternoon break on Saturday, or on Sunday morning. Before
