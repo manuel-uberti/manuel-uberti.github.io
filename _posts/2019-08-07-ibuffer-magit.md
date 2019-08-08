@@ -7,7 +7,7 @@ categories: emacs
 ---
 
 It’s amazing how many packages for our beloved editor exist out there.
-[ELPA](https://elpa.gnu.org/) and [MELPA](https://melpa.org/) keeps growing and
+[ELPA](https://elpa.gnu.org/) and [MELPA](https://melpa.org/) keep growing and
 growing, and curiosity is always pushing me out to look for a new package to
 try.
 
