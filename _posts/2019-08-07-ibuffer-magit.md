@@ -20,8 +20,8 @@ everyday Emacs interactions.
 
 Much like
 [Dired](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html),
-Ibuffer presents a customizable list of buffers on which we can apply all sort
-of operations: filter, sort, group, mark, delete, bury, visit. Just press
+Ibuffer presents a customizable list of buffers on which we can apply different
+kinds of operations: filter, sort, group, mark, delete, bury, visit. Just press
 <kbd>h</kbd> in Ibuffer to get an idea.
 
 Since I mainly work on projects versioned on Git,
