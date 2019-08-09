@@ -18,11 +18,10 @@ built-in Ibuffer is enough to make sense of all of the buffers available. I ope
 it with <kbd>C-x C-b</kbd>, which is one of the most used key bindings in my
 everyday Emacs interactions.
 
-Much like
+Ibuffer presents a customizable list of buffers on which, much like
 [Dired](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html),
-Ibuffer presents a customizable list of buffers on which we can apply different
-kinds of operations: filter, sort, group, mark, delete, bury, visit. Just press
-<kbd>h</kbd> in Ibuffer to get an idea.
+we can apply different kinds of operations: filter, sort, group, mark, delete,
+bury, visit. Just press <kbd>h</kbd> in Ibuffer to get an idea.
 
 Since I mainly work on projects versioned on Git,
 [ibuffer-vc](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
