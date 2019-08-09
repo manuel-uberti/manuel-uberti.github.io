@@ -25,9 +25,9 @@ bury, visit. Just press <kbd>h</kbd> in Ibuffer to get an idea.
 
 Since I mainly work on projects versioned on Git,
 [ibuffer-vc](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
-helps to group the buffers in a project-based fashion and to operate on them. For
-instance, to quickly close a project and its related buffers, mark the project
-header for deletion with <kbd>d</kbd> and then press <kbd>x</kbd>.
+helps with grouping the buffers in a project-based fashion and operate on them.
+For instance, to quickly close a project and its related buffers, mark the
+project header for deletion with <kbd>d</kbd> and then press <kbd>x</kbd>.
 
 One thing I was missing in Ibuffer was an integration with Magit. I wanted to
 open `magit-status` in the project the current buffer (i.e., the buffer where
