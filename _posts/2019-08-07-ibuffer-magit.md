@@ -25,7 +25,7 @@ bury, visit. Just press <kbd>h</kbd> in Ibuffer to get an idea.
 
 Since I mainly work on projects versioned on Git,
 [ibuffer-vc](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
-helps grouping the buffers in a project-based fashion and operating on them. For
+helps to group the buffers in a project-based fashion and to operate on them. For
 instance, to quickly close a project and its related buffers, mark the project
 header for deletion with <kbd>d</kbd> and then press <kbd>x</kbd>.
 
