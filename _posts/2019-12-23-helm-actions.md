@@ -66,8 +66,8 @@ live in any specific directory,
 [default-directory](http://doc.endlessparentheses.com/Var/default-directory.html)
 is the obvious choice.
 
-Now I have to plug the actions into `helm-projects-history`. Since it doesn’t
-have a `keymap` to extend, I need another solution.
+Now I have to plug the actions into `helm-projects-history`. Unfortunately, it
+doesn’t have a `keymap` to extend, so I need another solution.
 
 ``` emacs-lisp
 (defvar mu-helm-projects-history-map
