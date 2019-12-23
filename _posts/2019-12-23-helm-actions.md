@@ -35,13 +35,13 @@ Default to `default-directory' if it cannot be found."
     (helm-current-directory)))
 
 (defun mu-helm-project-dired ()
-  "Open a Dired buffer at project root from a Helm session."
+  "Open Dired buffers at project root from a Helm session."
   (interactive)
   (dolist (cand (helm-marked-candidates))
     (dired (mu--candidate-directory cand))))
 
 (defun mu-helm-project-shell ()
-  "Open a shell buffer at project root from a Helm session."
+  "Open shell buffers at project root from a Helm session."
   (interactive)
   (dolist (cand (helm-marked-candidates))
     (let* ((default-directory (mu--candidate-directory cand))
