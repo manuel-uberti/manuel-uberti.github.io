@@ -16,9 +16,9 @@ Projectile since Helm took over my Emacs configuration, but it’s also true th
 I had to code the “helmified” version of a couple of features I was heavily
 relying upon.
 
-In Helm, you can leverage [persistent
-actions](https://github.com/emacs-helm/helm/wiki/Developing#writing-persistent-actions)
-to extend the available utilities.
+In Helm, you can leverage
+[actions](https://github.com/emacs-helm/helm/wiki/Developing#writing-actions) to
+extend the available utilities.
 
 ``` emacs-lisp
 (defun mu--candidate-directory (candidate)
