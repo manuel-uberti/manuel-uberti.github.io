@@ -93,7 +93,7 @@ doesn’t have a `keymap` to extend, so I need another solution.
         :buffer "*helm browse project history*"))
 ```
 
-`mu-helm-projects-history` adds only a couple of things to the original
+`mu-helm-projects-history` adds only two things to the original
 `helm-projects-history`. I require `helm-ls-git` early because I need its
 capabilities inside my actions, and I use my own `mu-helm-projects-history-map`
 to make them available in the Helm buffer opened by this command.
