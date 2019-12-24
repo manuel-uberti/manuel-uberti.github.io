@@ -22,8 +22,8 @@ extend the available utilities.
 
 ``` emacs-lisp
 (defun mu--candidate-directory (candidate)
-  "Find the directory containing CANDIDATE.
-Default to `default-directory' if it cannot be found."
+  "Find the project root or the directory containing CANDIDATE.
+Default to `default-directory' if none can be found."
   (if (fboundp 'helm-ls-git-root-dir)
       (let ((dir (cond ((stringp candidate)
                         (file-name-directory candidate))
