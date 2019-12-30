@@ -5,3 +5,5 @@ source 'https://rubygems.org'
 # https://github.com/github/pages-gem
 gem 'github-pages'
 gem 'jekyll-feed'
+gem "jekyll-sass-converter", :git =>
+"https://github.com/searls/jekyll-sassc-converter.git"
