@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Ripgrepping with Helm
-date:       2020-01-01
+date:       2020-01-22
 summary:    Quickly search in projects and files
 categories: emacs
 ---
