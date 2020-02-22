@@ -81,7 +81,7 @@ With WITH-TYPES, ask for file types to search in."
 ```
 
 In case you are wondering, `mu–-project-root` is a trivial function to figure
-out the current project root directory.
+out the current project’s root directory.
 
 ``` emacs-lisp
 (defun mu--project-root ()
