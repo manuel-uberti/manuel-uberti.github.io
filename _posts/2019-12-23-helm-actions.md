@@ -22,17 +22,19 @@ extend the available utilities.
 
 ``` emacs-lisp
 (defun mu--candidate-directory (candidate)
-  "Find the project root or the directory containing CANDIDATE.
-Default to `default-directory' when none can be found, or to
-`helm-current-directory' when CANDIDATE is not in a project."
+  "Find the directory containing CANDIDATE.
+Default to `helm-current-directory' when none can be found."
   (if (fboundp 'helm-ls-git-root-dir)
-      (let ((dir (cond ((stringp candidate)
-                        (file-name-directory candidate))
-                       ((and (bufferp candidate)
-                             (buffer-file-name candidate))
-                        (file-name-directory (buffer-file-name candidate)))
-                       (t default-directory))))
-        (helm-ls-git-root-dir dir))
+      (let* ((dir (cond ((stringp candidate)
+                         (file-name-directory candidate))
+                        ((and (bufferp candidate)
+                              (buffer-file-name candidate))
+                         (file-name-directory (buffer-file-name candidate)))
+                        (t default-directory)))
+             (root-dir (helm-ls-git-root-dir dir)))
+        (if root-dir
+            root-dir
+          (helm-current-directory)))
     (helm-current-directory)))
 
 (defun mu-helm-project-dired ()
