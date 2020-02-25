@@ -61,9 +61,9 @@ current candidate in `helm-projects-history` as a starting point.
 
 To be fair, `mu--candidate-directory` does a little more than what I need here.
 That’s because I use `mu-helm-project-dired` and `mu-helm-project-shell` in
-`helm-buffers-list` and `helm-browse-project` too. The latter lists special
-buffers (e.g., `*scratch*`) as buffers of the current project. Since they do not
-live in any specific directory,
+`helm-mini` and `helm-browse-project` too. The latter lists special buffers
+(e.g., `*scratch*`) as buffers of the current project. Since they do not live in
+any specific directory,
 [default-directory](http://doc.endlessparentheses.com/Var/default-directory.html)
 is the obvious choice.
 
