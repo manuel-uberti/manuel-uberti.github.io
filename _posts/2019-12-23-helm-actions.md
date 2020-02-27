@@ -106,7 +106,7 @@ repetitions:
 
 ``` emacs-lisp
 (defmacro helm-exit-and-run! (&rest body)
-  "Define an action with BODY to run after exiting Helm."
+  "Define an action with BODY to be run after exiting Helm."
   (declare (doc-string 1))
   `(lambda ()
      (interactive)
