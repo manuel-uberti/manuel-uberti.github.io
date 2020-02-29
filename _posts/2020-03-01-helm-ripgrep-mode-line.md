@@ -109,7 +109,7 @@ buffer, just a clean feedback:
         (:eval
          (propertize
           (format "%s [no results]" ,proc)
-          'face 'mu-helm-grep-finish))))
+          'face 'helm-grep-finish))))
 ```
 
 The same goes for one or more results:
@@ -123,7 +123,7 @@ The same goes for one or more results:
           (format "%s [%s results]"
                   ,proc
                   (helm-get-candidate-number))
-          'face 'mu-helm-grep-finish))))
+          'face 'helm-grep-finish))))
 ```
 
 `mu-mode-line-bar` is what makes my mode-line bigger and I borrowed it from
