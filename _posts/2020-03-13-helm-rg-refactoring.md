@@ -83,12 +83,15 @@ Finally, let’s see the new `mu-helm-rg` in action:
 
 ``` emacs-lisp
 (defun mu-helm-project-search (&optional with-types)
+  (interactive "P")
   (mu-helm-rg (mu--project-root) nil with-types))
 
 (defun mu-helm-project-search-at-point (&optional with-types)
+  (interactive "P")
   (mu-helm-rg (mu--project-root) t with-types))
 
 (defun mu-helm-file-search (&optional with-types)
+  (interactive "P")
   (mu-helm-rg default-directory nil with-types))
 ```
 
