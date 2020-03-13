@@ -23,7 +23,7 @@ First of all, let’s use `ripgrep` instead of `ag`:
 
 ``` emacs-lisp
 (setq helm-grep-ag-command (concat "rg"
-                                   " --color=always"
+                                   " --color=never"
                                    " --smart-case"
                                    " --no-heading"
                                    " --line-number %s %s %s")
