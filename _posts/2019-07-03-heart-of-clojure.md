@@ -27,14 +27,10 @@ along the way. The incredible variety of topics in the
 [program](https://heartofclojure.eu/program) is already enough to skyrocket my
 expectations.
 
-As I did with [Dutch Clojure
-Days](https://manuel-uberti.github.io/programming/2018/04/23/dcd-round-up/) last
-year, I’ll take notes diligently and report my experience here as soon as I get
-back.
+As I did with [Dutch Clojure Days](https://www.manueluberti.eu/programming/2018/04/23/dcd-round-up/) last year, I’ll take notes diligently and report my experience here as soon as I get back.
 
 If you fancy wise Clojure chats or wild Emacs ramblings, get in touch. There is
-a dedicated `#heartofclojure` channel on
-[Clojurians](https://clojurians.slack.com/) which I’ve already joined, or you
-can always rely on good old [emails](https://manuel-uberti.github.io/contact/).
+a dedicated `#heartofclojure` channel on [Clojurians](https://clojurians.slack.com/) which I’ve already joined, or
+you can always rely on good old [emails](https://www.manueluberti.eu/contact/).
 
 See you there, Clojurists!

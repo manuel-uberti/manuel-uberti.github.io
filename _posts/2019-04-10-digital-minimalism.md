@@ -21,19 +21,18 @@ notifications.
 Therefore, the smartphone is not to blame for my compulsively click-driven life.
 The big giants like Facebook and Twitter don’t matter either, because I stopped
 using them a long while ago. The problem is everything else. [Aggregating RSS
-feeds](https://manuel-uberti.github.io/emacs/2017/08/01/elfeed/) seemed like the
-right move at the beginning, but checking them everyday has turned out to be a
-time-consuming experience much like browsing news websites to keep up to date.
-Reddit lures me in constantly, even though the small percentage of valuable
-content just reminds me of Twitter. GitHub usually offers more click-worthy
-updates, but the repositories I deem interesting are far less than the
-uninteresting ones. Letterboxd, a staple of my cinema obsession, may be the
-worse in this regard; its *Activity* tab is the drug I can’t resist, and yet
-I usually find no more than a couple of beautiful reviews a week.
+feeds](https://www.manueluberti.eu/emacs/2017/08/01/elfeed/) seemed like the right move at the beginning, but checking them everyday
+has turned out to be a time-consuming experience much like browsing news
+websites to keep up to date. Reddit lures me in constantly, even though the
+small percentage of valuable content just reminds me of Twitter. GitHub usually
+offers more click-worthy updates, but the repositories I deem interesting are
+far less than the uninteresting ones. Letterboxd, a staple of my cinema
+obsession, may be the worse in this regard; its *Activity* tab is the drug I can’t
+resist, and yet I usually find no more than a couple of beautiful reviews a
+week.
 
-All these considerations are the outcome of reading [Digital
-Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism) by
-Cal Newport. Newport’s writing style is at times too pedantic and close to
+All these considerations are the outcome of reading [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism) by Cal
+Newport. Newport’s writing style is at times too pedantic and close to
 spoon-feeding, but his book highlights potentially effective solutions to escape
 the miring web of my networking routines. The decluttering process Newport
 suggests is a difficult task. Depending on the depth of your online addiction,

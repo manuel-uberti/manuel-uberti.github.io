@@ -13,14 +13,12 @@ categories: clojure
 </div>
 
 I have still to properly unpack my luggage and yet here I am, eager to make
-sense of the enthusiasm of experiencing [Heart of
-Clojure](https://heartofclojure.eu/). I tried my best to pin down on my diary
-everything that the conference had to offer, because at first I wanted to write
-a round-up similar to the one I did for [Dutch Clojure Days
-2018](https://manuel-uberti.github.io/programming/2018/04/23/dcd-round-up/).
-However, summarising Heart of Clojure seems like an unimaginative exercise. And
-this is because a summary is by definition a cursory look. Considering what I’ve
-had the pleasure to enjoy, it doesn’t feel right.
+sense of the enthusiasm of experiencing [Heart of Clojure](https://heartofclojure.eu/). I tried my best to pin
+down on my diary everything that the conference had to offer, because at first
+I wanted to write a round-up similar to the one I did for [Dutch Clojure Days
+2018](https://www.manueluberti.eu/programming/2018/04/23/dcd-round-up/). However, summarising Heart of Clojure seems like an unimaginative
+exercise. And this is because a summary is by definition a cursory look.
+Considering what I’ve had the pleasure to enjoy, it doesn’t feel right.
 
 So, what was Heart of Clojure like exactly? After one day and a half in and
 plenty more to do, I came up with a definition: the people’s conference.

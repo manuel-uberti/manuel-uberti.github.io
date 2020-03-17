@@ -46,9 +46,7 @@ fills.
 ```
 
 Notice how I set `guess-language-langcodes`. It has to be set this way to make
-`guess-language` work with my setup
-for
-[Hunspell](https://manuel-uberti.github.io/emacs/2016/06/06/spellchecksetup/).
+`guess-language` work with my setup for [Hunspell](https://www.manueluberti.eu/emacs/2016/06/06/spellchecksetup/).
 
 Support for different languages and language detection for multiple languages in
 the same document are provided out of the box. `guess-language` is still young,

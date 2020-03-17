@@ -16,7 +16,7 @@ fair, as I am going to show there is not even the need for this command to
 exist, but coding it has been a fun exercise anyway.
 
 When it comes to spell-checking my buffers, I have been relying on
-[mu-cycle-ispell-languages](https://manuel-uberti.github.io/emacs/2017/02/04/guess-language/) to change dictionaries and [flyspell-correct-helm](https://github.com/d12frosted/flyspell-correct) to
+[mu-cycle-ispell-languages](https://www.manueluberti.eu/emacs/2017/02/04/guess-language/) to change dictionaries and [flyspell-correct-helm](https://github.com/d12frosted/flyspell-correct) to
 pick the correct word I happened to misspell. Since I am already using Helm with
 Flyspell, then, why not using it to select the dictionary too?
 
@@ -28,7 +28,7 @@ First, the actual dictionaries.
 ```
 
 Note that I use `hunspell` for spell-checking as I explained in [Spell-checking
-with Hunspell and flyspell-correct](https://manuel-uberti.github.io/emacs/2016/06/06/spellchecksetup/).
+with Hunspell and flyspell-correct](https://www.manueluberti.eu/emacs/2016/06/06/spellchecksetup/).
 
 Next, my new command.
 

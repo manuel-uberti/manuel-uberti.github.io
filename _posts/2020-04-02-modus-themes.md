@@ -24,7 +24,7 @@ As for me, I’ve recently seen the light again. Protesilaos Stavrou open source
 a couple of beautiful themes, `modus-vivendi` and `modus-operandi`, both available
 at [modus-themes](https://gitlab.com/protesilaos/modus-themes), on ELPA, and on MELPA. I am sure the apt readers remember that
 `modus-vivendi` first appeared on these pages right at the end of [Ripgrepping with
-Helm: the mode-line](https://manuel-uberti.github.io/emacs/2020/03/01/helm-ripgrep-mode-line/), but since then `modus-operandi` has become the default.
+Helm: the mode-line](https://www.manueluberti.eu/emacs/2020/03/01/helm-ripgrep-mode-line/), but since then `modus-operandi` has become the default.
 
 <p align="center">
     <a href="https://raw.githubusercontent.com/manuel-uberti/manuel-uberti.github.io/master/images/modus-operandi.png" 

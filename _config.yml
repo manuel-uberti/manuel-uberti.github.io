@@ -4,7 +4,7 @@ email:       ""
 author:      Manuel Uberti
 description: "My Personal Website"
 baseurl:     ""
-url:         "http://manuel-uberti.github.io"
+url:         "https://www.manueluberti.eu"
 date_format: "%b %-d, %Y"
 
 # Optional features

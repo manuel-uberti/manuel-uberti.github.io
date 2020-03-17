@@ -6,12 +6,9 @@ summary:    Better reusability with `funcall`.
 categories: emacs
 ---
 
-Following my [last
-article](https://manuel-uberti.github.io/emacs/2018/02/24/restore-windows/) on
-restoring window configurations with custom functions, [Clément
-Pit-Claudel](https://github.com/cpitclaudel) got in touch with me and suggested
-a little improvement. Clément pointed out the built-in Emacs command
-[winner-undo](http://doc.endlessparentheses.com/Fun/winner-undo.html), which
+Following my [last article](https://www.manueluberti.eu/emacs/2018/02/24/restore-windows/) on restoring window configurations with custom
+functions, [Clément Pit-Claudel](https://github.com/cpitclaudel) got in touch with me and suggested a little
+improvement. Clément pointed out the built-in Emacs command [winner-undo](http://doc.endlessparentheses.com/Fun/winner-undo.html), which
 I promptly used to simplify my solution.
 
 Let’s enable `winner-mode`, first, because `winner-undo` comes with it.
@@ -47,9 +44,8 @@ buffer[^symbol].
 I wrapped `(winner-undo)` with `(inhibit-message t)` to get rid of the
 superfluous message about the restored window configuration number.
 
-This is a much cleaner solution. I still have to use
-[fullframe](https://github.com/tomterl/fullframe), of course, but by reusing an
-inner Emacs functionality I get the same result with less code.
+This is a much cleaner solution. I still have to use [fullframe](https://github.com/tomterl/fullframe), of course, but
+by reusing an inner Emacs functionality I get the same result with less code.
 
 However, this code has a problem. `winner-mode` does not save the configuration
 of a frame with a single window. In this case `winner-undo` has nothing to
@@ -99,14 +95,12 @@ cleaner.
   (mu-save-wins-then-call 'paradox-list-packages "nil"))
 ```
 
-With the help of [funcall](http://doc.endlessparentheses.com/Fun/funcall.html)
-I have a generic wrapper that can be applied wherever I need.
+With the help of [funcall](http://doc.endlessparentheses.com/Fun/funcall.html) I have a generic wrapper that can be applied wherever
+I need.
 
 Thanks again to Clément Pit-Claudel who helped me dig further into my idea and
 explore new paths.
 
 <hr/>
 
-[^symbol]: Read
-    [here](https://manuel-uberti.github.io/emacs/2018/02/24/restore-windows/) to
-        understand what *fullframed* means.
+[^symbol]: Read [here](https://www.manueluberti.eu/emacs/2018/02/24/restore-windows/) to understand what *fullframed* means.

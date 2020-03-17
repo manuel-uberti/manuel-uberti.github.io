@@ -6,7 +6,7 @@ summary:    Refactoring my ripgrepping solution.
 categories: emacs
 ---
 
-When I wrote about how I use `ripgrep` with Helm in [Ripgrepping with Helm](https://manuel-uberti.github.io/emacs/2020/02/22/ripgrepping-with-helm/),
+When I wrote about how I use `ripgrep` with Helm in [Ripgrepping with Helm](https://www.manueluberti.eu/emacs/2020/02/22/ripgrepping-with-helm/),
 I overlooked something. Actually, let’s be honest. I didn’t study my usual
 search habits like I should’ve had to.
 

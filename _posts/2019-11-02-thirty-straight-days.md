@@ -6,14 +6,12 @@ summary:    A month with `straight.el`.
 categories: emacs
 ---
 
-It’s already been a month since I moved from `package.el` to
-[straight.el](https://github.com/raxod502/straight.el), and if it wasn’t for the
-constant fiddling with my Emacs configuration, I would have hardly noticed the
-differences in package management. A proof of the solid work behind
-`straight.el`, sure, but also a demonstration of how painless package management
-can be for someone who bypasses the provided UI and relies on
-[use-package](https://github.com/jwiegley/use-package) snippets to install and
-setup their packages.
+It’s already been a month since I moved from `package.el` to [straight.el](https://github.com/raxod502/straight.el), and if
+it wasn’t for the constant fiddling with my Emacs configuration, I would have
+hardly noticed the differences in package management. A proof of the solid work
+behind `straight.el`, sure, but also a demonstration of how painless package
+management can be for someone who bypasses the provided UI and relies on
+[use-package](https://github.com/jwiegley/use-package) snippets to install and setup their packages.
 
 However, with `straight.el` a new approach to updates is needed. First of all,
 I compulsively track the state of the packages I have installed, and I tend to
@@ -28,19 +26,16 @@ wonder.
 Considering how vital to my computing Emacs is, this may sound like complete
 madness, I know. In my defence, I mostly rely on stable and long-term support
 software on my computer. Emacs is just the special kind of madness that drags me
-to it in spite of the risks. Furthermore, as I wrote [last
-time](https://manuel-uberti.github.io/emacs/2019/10/04/straight/), `straight.el`
+to it in spite of the risks. Furthermore, as I wrote [last time](https://www.manueluberti.eu/emacs/2019/10/04/straight/), `straight.el`
 makes it easier to revert to a previous unbroken version of a package, so I can
 find a functional environment without too much of a hassle.
 
-In my `package.el` days, package updating was handled by
-[Paradox](https://github.com/Malabarba/paradox). In a matter of a couple of key
-bindings, it took care of notifying me about new versions and installing the
-selected updates. `straight.el` is less fancy, though. It provides the necessary
-commands to install and update a package, as well as the big brother that will
-pull every package in, but all the UI it offers is the
-user’s [completing-read](http://doc.endlessparentheses.com/Fun/completing-read.html)
-framework—`ivy-read` in my case.
+In my `package.el` days, package updating was handled by [Paradox](https://github.com/Malabarba/paradox). In a matter of a
+couple of key bindings, it took care of notifying me about new versions and
+installing the selected updates. `straight.el` is less fancy, though. It provides
+the necessary commands to install and update a package, as well as the big
+brother that will pull every package in, but all the UI it offers is the
+user’s [completing-read](http://doc.endlessparentheses.com/Fun/completing-read.html) framework—`ivy-read` in my case.
 
 Well, like the first line of the README says, `straight.el` is a tool for the
 Emacs hacker, so let’s play with it. All I had to do to get a more *interactive*

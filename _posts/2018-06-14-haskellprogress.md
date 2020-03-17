@@ -6,12 +6,10 @@ summary:    Notes on my progress with Haskell and the Haskell Book.
 categories: programming
 ---
 
-[Last
-December](https://manuel-uberti.github.io/programming/2017/12/08/learninghaskell/)
-I started my own trip towards Haskell, jumping in with much enthusiasm and
-curiosity. The [Haskell Book](http://haskellbook.com/) has been the perfect
-companion, and since chapter 12 just ended I would like to write about my
-progress with this wonderful programming language.
+[Last December](https://www.manueluberti.eu/programming/2017/12/08/learninghaskell/) I started my own trip towards Haskell, jumping in with much
+enthusiasm and curiosity. The [Haskell Book](http://haskellbook.com/) has been the perfect companion, and
+since chapter 12 just ended I would like to write about my progress with this
+wonderful programming language.
 
 A new house and everything that comes with it gleefully slowed me down on my
 studies, but Haskell has never left me alone during these months. The Haskell

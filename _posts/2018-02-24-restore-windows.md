@@ -6,11 +6,10 @@ summary:    Custom functions to never lose your windows setup.
 categories: emacs
 ---
 
-[Last time](https://manuel-uberti.github.io/emacs/2018/02/17/magit-bury-buffer/)
-I explained how I customised Magit to kill its buffers upon quitting
-`magit-status`. My solution uses `magit-restore-window-configuration`, which
-does exactly what the name suggests. Wouldn’t it be great if a similar handy
-trick could be applied to any Emacs functionality?
+[Last time](https://www.manueluberti.eu/emacs/2018/02/17/magit-bury-buffer/) I explained how I customised Magit to kill its buffers upon quitting
+`magit-status`. My solution uses `magit-restore-window-configuration`, which does
+exactly what the name suggests. Wouldn’t it be great if a similar handy trick
+could be applied to any Emacs functionality?
 
 Specifically:
 
@@ -51,10 +50,10 @@ A buffer can be visited in a single window per frame with
     (fullframe ibuffer mu-pop-window-configuration))
 ```
 
-The first argument to `fullframe` indicates that I want the function `ibuffer`
-to be executed in a single window of the current frame. The second argument is
-the command[^symbol] invoked when quitting Ibuffer, which will have to restore
-the previous window configuration.
+The first argument to `fullframe` indicates that I want the function `ibuffer` to be
+executed in a single window of the current frame. The second argument is the
+command[^symbol] invoked when quitting Ibuffer, which will have to restore the
+previous window configuration.
 
 ``` emacs-lisp
 (defun mu-restore-window-configuration (config)
@@ -75,8 +74,7 @@ the previous window configuration.
 ```
 
 These little functions are just my *personal take* on the awesome gems
-I discovered in [John Wiegley’s Emacs
-configuration](https://github.com/jwiegley/dot-emacs/commit/654e2dd5a8667cff58061c3212b787720fc04804).
+I discovered in [John Wiegley’s Emacs configuration](https://github.com/jwiegley/dot-emacs/commit/654e2dd5a8667cff58061c3212b787720fc04804).
 
 Nothing can stop me now from applying the same pattern to any mode I want. Once
 again, Emacs shows a degree of customizability second to none.

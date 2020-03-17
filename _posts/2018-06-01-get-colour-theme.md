@@ -6,21 +6,18 @@ summary:    A function to find the active Emacs colour theme name.
 categories: emacs
 ---
 
-[Last time](https://manuel-uberti.github.io/emacs/2018/05/25/display-version/)
-I explained how to display your Emacs version with extra useful
+[Last time](https://www.manueluberti.eu/emacs/2018/05/25/display-version/) I explained how to display your Emacs version with extra useful
 details. I closed the article saying that there could be more interesting stuff
 to display, and here I am with something new.
 
-Sometimes I happen to report [missing
-font-locking](https://github.com/clojure-emacs/clojure-mode/issues/474) or other
-small issues with faces in a mode I use. Why not have my current colour theme
-name displayed along with the bits and pieces gathered in the previous article?
+Sometimes I happen to report [missing font-locking](https://github.com/clojure-emacs/clojure-mode/issues/474) or other small issues with
+faces in a mode I use. Why not have my current colour theme name displayed along
+with the bits and pieces gathered in the previous article?
 
-As Steve Purcell [explained on StackExchange](https://superuser.com/a/320289),
-the concept of *current theme* is a bit fuzzy in Emacs. You can have multiple
-themes on at the same time, just have a look at <kbd>M-x
-customize-themes</kbd>. Moreover, activating a theme means applying its settings
-to the faces and variables it specifies.
+As Steve Purcell [explained on StackExchange](https://superuser.com/a/320289), the concept of *current theme* is a
+bit fuzzy in Emacs. You can have multiple themes on at the same time, just have
+a look at <kbd>M-x customize-themes</kbd>. Moreover, activating a theme means applying its
+settings to the faces and variables it specifies.
 
 Thus I came up with this little function:
 
@@ -34,11 +31,11 @@ Thus I came up with this little function:
      (nth 1 (split-string res "'")))))
 ```
 
-Basically I run [ripgrep](https://github.com/BurntSushi/ripgrep) in my
-`.emacs.d` to get the lines containing `load-theme`. Obviously this will return
-the line in `mu–-colour-theme` as well. However, since I use `split-string` with
-`'` as separator I can get the element I need from the result of `ripgrep`. `nth
-1` gives me what I am looking for: `sanityinc-tomorrow-night`.
+Basically I run [ripgrep](https://github.com/BurntSushi/ripgrep) in my `.emacs.d` to get the lines containing `load-theme`.
+Obviously this will return the line in `mu–-colour-theme` as well. However, since
+I use `split-string` with `'` as separator I can get the element I need from the
+result of `ripgrep`. `nth 1` gives me what I am looking for:
+`sanityinc-tomorrow-night`.
 
 Now I can have the active colour theme displayed in my environment details
 buffer:
