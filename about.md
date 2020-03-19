@@ -20,7 +20,8 @@ and ClojureScript at [7bridges](https://7bridges.eu/). My open source work is av
 
 I am also a cinephile, but I have [another blog](https://www.filmsinwords.eu) for that.
 
-[Get in touch](https://www.manueluberti.eu/contact/) if you want a detailed curriculum vitae.
+[Get in touch](https://www.manueluberti.eu/contact/) if you want to know more, or if you are looking for a detailed
+curriculum vitae.
 
 ### Website
 
