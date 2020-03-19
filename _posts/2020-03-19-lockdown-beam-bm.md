@@ -18,8 +18,8 @@ I rarely talk about.
 more attention, but I can’t tell now how long this series is going to run.
 I tend to use *all* the packages configured in my `init.el`, and most of them are
 fairly popular, so it’s not like digging obscure entries from the dust of my
-configuration. However, out of more than 100 packages, I am pretty sure I can
-find a decent amount of poor neglected things in there.
+setup. However, out of more than 100 packages, I am pretty sure I can find a
+decent amount of poor neglected things in there.
 
 Let’s start with Jo Odland’s [bm.el](https://github.com/joodland/bm).
 
