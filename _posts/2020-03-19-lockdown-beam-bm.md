@@ -15,7 +15,7 @@ But I can also take the time to spread words of love about some Emacs packages
 I rarely talk about.
 
 *Lockdown Beam* aims to be a series of small articles on packages that deserve
-more attention. I can’t tell now how long this series is going to run, though.
+more attention. However, I can’t tell now how long this series is going to run.
 I tend to use *all* the packages configured in my `init.el`, and most of them are
 fairly popular, so it’s not like digging obscure entries from the dust of my
 configuration. However, out of more than 100 packages, I am pretty sure I can
