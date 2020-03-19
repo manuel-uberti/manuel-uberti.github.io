@@ -47,11 +47,3 @@ Stay safe.
 ## Notes
 
 [^1]: Check out what Protesilaos Stavrou has to say about [registers](https://protesilaos.com/codelog/2020-03-08-emacs-registers/).
-
-
-
-
-
-
-
-
