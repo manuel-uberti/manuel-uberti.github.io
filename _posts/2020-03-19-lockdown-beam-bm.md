@@ -27,8 +27,8 @@ There are many great ways to bookmark things in Emacs[^1], but sometimes a visua
 clue just adds a good feeling of immediacy one (e.g., myself) can find pleasant.
 The README says this is a feature from Visual Studio that the author was missing
 in Emacs, but you will have to check for yourself whether this is something
-Visual Studio does or not. You know there is no such thing as a different text
-editor for me.
+Visual Studio does. You know there is no such thing as a different text editor
+for me.
 
 Following the documentation, setting up `bm.el` is easy. If you use `use-package`,
 there a is nice example ready for copy-and-paste at [Configuring bm.el with
