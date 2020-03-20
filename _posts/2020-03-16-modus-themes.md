@@ -26,7 +26,7 @@ at [modus-themes](https://gitlab.com/protesilaos/modus-themes), on ELPA, and on 
 `modus-vivendi` first appeared on these pages right at the end of [Ripgrepping with
 Helm: the mode-line](https://www.manueluberti.eu/emacs/2020/03/01/helm-ripgrep-mode-line/), but since then `modus-operandi` has become the default.
 
-<div style="text-align: center">
+<div style="text-align: center; padding-bottom: 15px">
     <a href="https://raw.githubusercontent.com/manuel-uberti/manuel-uberti.github.io/master/images/modus-operandi.png" 
        target="_blank">
       <img src="/images/modus-operandi.png">
