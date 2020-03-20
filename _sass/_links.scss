@@ -3,7 +3,13 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
-a:hover,
+a:hover {
+  border: 0;
+  color: $link-hover-color;
+  text-decoration: underline;
+  text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+}
+
 a:focus,
 a:active {
   border: 0;
@@ -33,7 +39,7 @@ button,
 }
 .anchorjs-link:hover,
 .anchorjs-link:focus,
-.anchorjs-link:active{
+.anchorjs-link:active {
   border: 0;
   color: $link-hover-color;
   text-shadow: none;
