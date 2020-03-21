@@ -13,6 +13,7 @@
 .site-header .site-title {
   font-size: $h2;
   font-weight: 400;
+  text-decoration: none !important;
 }
 
 .site-nav {
@@ -21,6 +22,7 @@
 
 .site-header nav a {
   color: #666;
+  text-decoration: none !important;
 }
 
 .site-header nav a:hover,

@@ -7,9 +7,13 @@
   //border-bottom: thin solid #f3f3f3;
 }
 
+.post a {
+  text-decoration: underline;
+}
+
 .posts .post:last-child {
   border-bottom: none;
-  margin-bottom: .375em;
+  margin-bottom: 0.375em;
   padding-bottom: 0;
 }
 
@@ -19,10 +23,14 @@
   color: #333;
 }
 
+.post-link {
+  text-decoration: none !important;
+}
+
 .post-footer {
   @extend .italic;
 
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   text-align: center;
 }
 
@@ -37,7 +45,7 @@
   width: auto;
   font-weight: 300;
   margin: 0;
-  padding: .25em 0;
+  padding: 0.25em 0;
   color: #7a7a7a;
   font-style: italic;
   font-size: $h5;
