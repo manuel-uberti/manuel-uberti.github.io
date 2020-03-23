@@ -14,7 +14,7 @@ categories: emacs
         bm.el
       </li>
       <li>
-        <a href="https://www.manueluberti.eu/emacs/2020/03/24/lockdown-beam-eldoc-eval/">
+        <a href="https://www.manueluberti.eu/emacs/2020/03/23/lockdown-beam-eldoc-eval/">
           eldoc-eval
         </a>
       </li>
