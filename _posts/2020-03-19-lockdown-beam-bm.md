@@ -6,6 +6,22 @@ summary:    Visual bookmarks in your buffers.
 categories: emacs
 ---
 
+<div style="padding-bottom: 15px">
+  <div class="box">
+    <h3>Lockdown Beam</h3>
+    <ul>
+      <li>
+        bm.el
+      </li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/03/24/lockdown-beam-eldoc-eval/">
+          eldoc-eval
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
 I guess there is no need to explain the choice of the word “lockdown” in the
 title. I don’t know about you, but here in Italy things are getting worse and
 worse. Every time I look outside the window I see desolation, and for a George
