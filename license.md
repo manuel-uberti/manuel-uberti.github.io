@@ -5,9 +5,7 @@ permalink: /license/
 tags: license
 ---
 
-This website, www.manueluberti.eu, is the work of Manuel Uberti. Unless
-otherwise specified, everything found herein is available under free/libre and
-copyleft terms.
+This website, www.manueluberti.eu, is the work of Manuel Uberti.
 
 All the original text is available under the Creative Commons
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
