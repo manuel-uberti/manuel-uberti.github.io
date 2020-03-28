@@ -29,15 +29,27 @@ I am just making `helm-grep-finish` bold, nothing serious.
 
 ``` emacs-lisp
 (el-patch-defun helm-grep-ag-init (directory &optional type)
-  (let ((default-directory (or (mu--project-root)
-                               (helm-default-directory)
-                               default-directory))
+  "Start AG process in DIRECTORY maybe searching only files of type TYPE."
+  (let ((default-directory (el-patch-swap
+                             (or helm-ff-default-directory
+                                 (helm-default-directory)
+                                 default-directory)
+                             (or (mu--project-root)
+                                 (helm-default-directory)
+                                 default-directory)))
         (cmd-line (helm-grep-ag-prepare-cmd-line
                    helm-pattern (or (file-remote-p directory 'localname)
                                     directory)
                    type))
+        (el-patch-remove
+          (start-time (float-time)))
         (proc-name (helm-grep--ag-command)))
     (set (make-local-variable 'helm-grep-last-cmd-line) cmd-line)
+    (el-patch-remove
+      (helm-log "Starting %s process in directory `%s'"
+                proc-name directory)
+      (helm-log "Command line used was:\n\n%s"
+                (concat ">>> " cmd-line "\n\n")))
     (prog1
         (start-file-process-shell-command proc-name helm-buffer cmd-line)
       (set-process-sentinel
@@ -45,36 +57,80 @@ I am just making `helm-grep-finish` bold, nothing serious.
        (lambda (process event)
          (let* ((err (process-exit-status process))
                 (noresult (= err 1))
-                (proc (concat " HELM " proc-name)))
-           (if noresult
-               (with-helm-buffer
+                (el-patch-add
+                  (proc (concat " HELM " proc-name))))
+           (el-patch-swap
+             (cond (noresult
+                    (with-helm-buffer
+                      (insert (concat "* Exit with code 1, no result found,"
+                                      " command line was:\n\n "
+                                      (propertize helm-grep-last-cmd-line
+                                                  'face 'helm-grep-cmd-line)))
+                      (setq mode-line-format
+                            `(" " mode-line-buffer-identification " "
+                              (:eval (format "L%s" (helm-candidate-number-at-point))) " "
+                              (:eval (propertize
+                                      (format
+                                       "[%s process finished - (no results)] "
+                                       ,(upcase proc-name))
+                                      'face 'helm-grep-finish))))))
+                   ((string= event "finished\n")
+                    (helm-log "%s process finished with %s results in %fs"
+                              proc-name
+                              (helm-get-candidate-number)
+                              (- (float-time) start-time))
+                    (helm-maybe-show-help-echo)
+                    (with-helm-window
+                      (setq mode-line-format
+                            `(" " mode-line-buffer-identification " "
+                              (:eval (format "L%s" (helm-candidate-number-at-point))) " "
+                              (:eval (propertize
+                                      (format
+                                       "[%s process finished in %.2fs - (%s results)] "
+                                       ,(upcase proc-name)
+                                       ,(- (float-time) start-time)
+                                       (helm-get-candidate-number))
+                                      'face 'helm-grep-finish))))
+                      (force-mode-line-update)
+                      (when helm-allow-mouse
+                        (helm--bind-mouse-for-selection helm-selection-point))))
+                   (t (helm-log
+                       "Error: %s %s"
+                       proc-name
+                       (replace-regexp-in-string "\n" "" event))))
+             (if noresult
+                 (with-helm-buffer
+                   (setq mode-line-format
+                         `(""
+                           mu-mode-line-bar
+                           " "
+                           (:eval
+                            (propertize
+                             (format "%s [no results]" ,proc)
+                             'face 'helm-grep-finish)))))
+               (with-helm-window
                  (setq mode-line-format
-                       `((:eval mu-mode-line-bar)
+                       `(""
+                         mu-mode-line-bar
                          " "
                          (:eval
                           (propertize
-                           (format "%s [no results]" ,proc)
-                           'face 'helm-grep-finish)))))
-             (with-helm-window
-               (setq mode-line-format
-                     `((:eval mu-mode-line-bar)
-                       " "
-                       (:eval
-                        (propertize
-                         (format "%s [%s results]"
-                                 ,proc
-                                 (helm-get-candidate-number))
-                         'face 'helm-grep-finish))))
-               (force-mode-line-update)))))))))
+                           (format "%s [%s results]"
+                                   ,proc (helm-get-candidate-number))
+                           'face 'helm-grep-finish))))
+                 (force-mode-line-update))))))))))
 ```
 
-Albeit less code than the original `helm-grep-ag-init`, it’s still quite a lot to
-take in. Let’s break down my changes:
+Let’s break down my changes:
 
 ``` emacs-lisp
-(default-directory (or (mu--project-root)
-                       (helm-default-directory)
-                       default-directory))
+(default-directory (el-patch-swap
+                     (or helm-ff-default-directory
+                         (helm-default-directory)
+                         default-directory)
+                     (or (mu--project-root)
+                         (helm-default-directory)
+                         default-directory)))
 ```
 
 This has nothing do to with the mode-line, actually, but why not re-use
