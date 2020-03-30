@@ -18,6 +18,11 @@ categories: emacs
           eldoc-eval
         </a>
       </li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/03/30/lockdown-beam-git-identity/">
+          git-identity
+        </a>
+      </li>
     </ul>
   </div>
 </div>
