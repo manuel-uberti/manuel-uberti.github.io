@@ -39,7 +39,7 @@ automatically only with WITH-TAP."
   (let ((helm-sources-using-default-as-input nil)
         (command (helm-grep--ag-command))
         (input (when with-tap
-                 (substring-no-properties (thing-at-point 'symbol)))))
+                 (thing-at-point 'sexp t))))
     (setq helm-source-grep-ag
           (helm-make-source (upcase command) 'helm-grep-ag-class
             :header-name (lambda (name)
