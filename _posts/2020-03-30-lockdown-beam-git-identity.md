@@ -21,6 +21,11 @@ categories: emacs
         </a>
       </li>
       <li>git-identity</li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/04/06/lockdown-beam-hide-mode-line/">
+          hide-mode-line
+        </a>
+      </li>
     </ul>
   </div>
 </div>
