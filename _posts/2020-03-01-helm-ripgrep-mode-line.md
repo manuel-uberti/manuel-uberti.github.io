@@ -30,13 +30,11 @@ I am just making `helm-grep-finish` bold, nothing serious.
 ``` emacs-lisp
 (el-patch-defun helm-grep-ag-init (directory &optional type)
   "Start AG process in DIRECTORY maybe searching only files of type TYPE."
-  (let ((default-directory (el-patch-swap
-                             (or helm-ff-default-directory
-                                 (helm-default-directory)
-                                 default-directory)
-                             (or (mu--project-root)
-                                 (helm-default-directory)
-                                 default-directory)))
+  (let ((default-directory (or (el-patch-swap
+                                 helm-ff-default-directory
+                                 (mu--project-root))
+                               (helm-default-directory)
+                               default-directory))
         (cmd-line (helm-grep-ag-prepare-cmd-line
                    helm-pattern (or (file-remote-p directory 'localname)
                                     directory)
