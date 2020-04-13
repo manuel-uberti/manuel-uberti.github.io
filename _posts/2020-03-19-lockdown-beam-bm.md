@@ -28,6 +28,11 @@ categories: emacs
           hide-mode-line
         </a>
       </li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/04/13/lockdown-beam-mark-thing-at/">
+          mark-thing-at
+        </a>
+      </li>
     </ul>
   </div>
 </div>
