@@ -74,7 +74,7 @@ Stay safe.
 
 ## Notes
 
-[^1]: Note that the [Modus Themes](https://www.manueluberti.eu/emacs/2020/03/16/modus-themes) has built-in support for that, so I don’t
+[^1]: Note that the [Modus Themes](https://www.manueluberti.eu/emacs/2020/03/16/modus-themes) have built-in support for that, so I don’t
     customise `xterm-color-names` and `xterm-color-names-bright` any more.
 
 [^2]: [Evil Genius](https://en.wikipedia.org/wiki/Evil_demon).
