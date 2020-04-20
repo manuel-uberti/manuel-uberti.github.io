@@ -31,6 +31,11 @@ categories: emacs
           mark-thing-at
         </a>
       </li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/04/20/lockdown-beam-native-complete/">
+          native-complete
+        </a>
+      </li>
     </ul>
   </div>
 </div>
