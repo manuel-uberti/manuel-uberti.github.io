@@ -38,6 +38,11 @@ categories: emacs
           native-complete
         </a>
       </li>
+      <li>
+        <a href="https://www.manueluberti.eu/emacs/2020/04/27/lockdown-beam-volatile-highlights/">
+          volatile-highlights
+        </a>
+      </li>
     </ul>
   </div>
 </div>
