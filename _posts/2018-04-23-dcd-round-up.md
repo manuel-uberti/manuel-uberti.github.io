@@ -16,13 +16,13 @@ with the community. How could I not be excited?
     </figure>
 </div>
 
-On Saturday 21st at 8:30 am sharp we were at the TQ building’s reception,
-greeted by [Carlo Sciolla](https://twitter.com/skuro). A couple of words on the venue: a simple but elegant
-building, close to Dam Square and right in front of a fascinating flower market.
-The conference happened on the fourth floor, with a balcony to enjoy the
-outstanding view on the city, and food and drinks for everybody. My first, huge
-“thank you, DCD!” goes to the vegetarian option which was palatable for a vegan,
-but let’s keep the cheering and the hand-clapping for the end.
+On Saturday 21st at 8:30 am sharp we were at the TQ building reception, greeted
+by [Carlo Sciolla](https://twitter.com/skuro). A couple of words on the venue: a simple but elegant building,
+close to Dam Square and right in front of a fascinating flower market. The
+conference happened on the fourth floor, with a balcony to enjoy the outstanding
+view on the city, and food and drinks for everybody. My first, huge “thank you,
+DCD!” goes to the vegetarian option which was palatable for a vegan, but
+let’s keep the cheering and the hand-clapping for the end.
 
 Eleven speakers were waiting for us. [Vijay Kiran](https://twitter.com/vijaykiran) set the stage and the playful
 mood of the day, leaving soon room to [Alex Yakushev](https://twitter.com/unlog1c). “Embrace the JVM” was a

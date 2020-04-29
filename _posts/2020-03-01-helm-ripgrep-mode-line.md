@@ -14,10 +14,10 @@ custom one, which is a minimal[^1] version of the excellent [doom-modeline](http
 two-fold issue: my mode-line is bigger than the default one and I don’t need all
 the information usually printed by `helm-do-grep-ag`.
 
-By inspecting Helm’s source code one can easily find out what `helm-do-grep-ag`
-does on [mode-line-format](http://doc.endlessparentheses.com/Var/mode-line-format.html). Basically, among other things `helm-grep-ag-init` sets
-up the value for `mode-line-format` according to the number of results. Very well,
-then, it’s time to bring [el-patch](https://www.manueluberti.eu/emacs/2019/12/01/el-patch/) back in the game.
+By inspecting Helm source code one can easily find out what `helm-do-grep-ag` does
+on [mode-line-format](http://doc.endlessparentheses.com/Var/mode-line-format.html). Basically, among other things `helm-grep-ag-init` sets up the
+value for `mode-line-format` according to the number of results. Very well, then,
+it’s time to bring [el-patch](https://www.manueluberti.eu/emacs/2019/12/01/el-patch/) back in the game.
 
 First, though, aesthetics.
 

@@ -62,7 +62,7 @@ place.
 Keitaro’s package adds a temporary highlight to the yanked text which makes the
 addition stand out briefly, and so I get a sense of what I am doing in a buffer
 I’m not entirely familiar with yet. There are other commands that benefit from
-it, as the `volatile-highlights`’s README explains. For instance, I find the
+it, as the `volatile-highlights` README explains. For instance, I find the
 highlights around undo operations and `occur-mode` occurrences very helpful.
 
 Although I didn’t play with it, `volatile-highlights` can be extended to support

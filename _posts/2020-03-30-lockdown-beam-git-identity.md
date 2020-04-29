@@ -63,7 +63,7 @@ repositories and one for work projects.
 Without Akira Komamura’s [git-identity](https://github.com/akirak/git-identity.el) this situation was leading me to
 confusion, because more often than not I found myself committing and pushing
 work stuff with my personal identity. One could manually edit `.git/config` every
-time or use Git’s own commands to deal with this, but to me these are both
+time or use Git own commands to deal with this, but to me these are both
 cumbersome alternatives compared to the simplicity of Konamura’s package.
 
 The only configuration needed for me after the installation was binding <kbd>I</kbd> to
