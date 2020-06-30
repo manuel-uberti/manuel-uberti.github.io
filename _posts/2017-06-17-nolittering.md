@@ -6,14 +6,12 @@ summary:    House-cleaning with `no-littering`.
 categories: emacs
 ---
 
-How often do you have a look at your `.emacs.d` directory? If you’re anything
-like me, not that often. It’s no wonder then that upon opening it I was
-horrified to see it cluttered with all sorts of files from all the packages
-I regularly use.
+How often do you have a look at your `.emacs.d` directory? If you’re anything like
+me, not that often. It’s no wonder then that upon opening it I was horrified to
+see it cluttered with all sorts of files from all the packages I regularly use.
 
-Jonas Bernoulli, of [Magit](https://magit.vc/) fame, must be feeling similar
-concerns. Otherwise, why did he come up with a package
-like [no-littering](https://github.com/tarsius/no-littering)?
+Jonas Bernoulli, of [Magit](https://magit.vc/) fame, must be feeling similar concerns. Otherwise, why
+did he come up with a package like [no-littering](https://github.com/tarsius/no-littering)?
 
 Installation is trivial, especially if you use the great `use-package`:
 
