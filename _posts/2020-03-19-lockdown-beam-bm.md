@@ -72,7 +72,7 @@ Visual Studio does. You know there is no such thing as a different text editor
 for me.
 
 Following the documentation, setting up `bm.el` is easy. If you use `use-package`,
-there a is nice example ready for copy-and-paste at [Configuring bm.el with
+there is a nice example ready for copy-and-paste at [Configuring bm.el with
 use-package](https://github.com/joodland/bm#configuring-bmel-with-use-package). I started from there, but I replaced the hook on
 `vc-before-checkin-hook` with a hook on `magit-pre-refresh-hook`.
 
