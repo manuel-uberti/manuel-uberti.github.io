@@ -20,7 +20,7 @@ background. Don’t get fooled by my grumpiness, though. It’s still one of th
 best Emacs themes out there, so be sure to check it out if you are after a light
 theme.
 
-As for me, I’ve recently seen the light again. Protesilaos Stavrou open sourced
+As for me, I’ve recently seen *the light* again. Protesilaos Stavrou open sourced
 a couple of beautiful themes, `modus-vivendi` and `modus-operandi`, both available
 at [modus-themes](https://gitlab.com/protesilaos/modus-themes), on ELPA, and on MELPA. I am sure the apt readers remember that
 `modus-vivendi` first appeared on these pages right at the end of [Ripgrepping with
