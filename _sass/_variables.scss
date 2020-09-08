@@ -41,6 +41,17 @@
 }
 
 @font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.woff2') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
   font-family: 'Roboto Slab';
   src: url('../fonts/RobotoSlab-Regular.woff2') format('woff');
 }
@@ -49,17 +60,17 @@ $base-font-size: 20px !default;
 $bold-font-weight: bold !default;
 $font-family: 'Crimson Pro', serif !default;
 $line-height: 1.0 !default;
-$heading-font-family: 'Crimson Pro', sans-serif !default;
-$heading-font-weight: 700 !default;
-$heading-line-height: 1.25 !default;
+$heading-font-family: 'Manrope', sans-serif !default;
+$heading-font-weight: 600 !default;
+$heading-line-height: 1.2 !default;
 $monospace-font-family: 'IBM Plex Mono', monospace !default;
 $title-font-family: 'Roboto Slab', serif !default;
-$h1: 1.4rem !default;
-$h2: 1.2rem !default;
-$h3: 1.1rem !default;
-$h4: 1.0rem !default;
-$h5: 0.9rem !default;
-$h6: 0.8rem !default;
+$h1: 1.2rem !default;
+$h2: 1.1rem !default;
+$h3: 1.0rem !default;
+$h4: 0.9rem !default;
+$h5: 0.8rem !default;
+$h6: 0.7rem !default;
 $h00: 1.1rem !default;
 $h0: 3rem !default;
 $h00-responsive: 8vw !default;
