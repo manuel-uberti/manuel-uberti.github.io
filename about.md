@@ -23,5 +23,5 @@ for that.
 [Get in touch](https://www.manueluberti.eu/contact/) if you want to know more, or if you are looking for a detailed
 curriculum vitae.
 
-As for this website, it is powered by [Jekyll](https://jekyllrb.com/) and a modified version of [Pixyll](http://pixyll.com/).
+As for this website, it is powered by [Jekyll](https://jekyllrb.com/) and a modified version of [Pixyll](https://github.com/johno/pixyll).
 The source code of the entire website is available on [GitHub](https://github.com/manuel-uberti/manuel-uberti.github.io).
