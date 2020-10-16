@@ -84,8 +84,11 @@ If TYPE is not passed, open a Clojure REPL."
 a Clojure REPL, but that’s fine. The code in there has to be tested on both
 REPLs anyway, so it doesn’t matter which one comes up first.
 
-Now, let’s fix <kbd>C-c C-k</kbd> as well.
+Note that I changed the value of `nrepl-repl-buffer-name-template` to `*cider-repl
+%j %r:%S*`, so you may have to change `mu--cider-repl-regex` according to the value
+in your setup.
 
+Now, let’s fix <kbd>C-c C-k</kbd> as well.
 ``` emacs-lisp
 (defun mu--cider-session-by-type (type)
   "Return the current CIDER session by TYPE."
