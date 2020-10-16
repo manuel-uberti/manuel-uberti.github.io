@@ -33,10 +33,10 @@ and hitting <kbd>C-c C-z</kbd> frequently results in an unpredictable behaviour.
 the REPL of the expected type pops up, sometimes the other one appears,
 sometimes I get a message about a missing REPL in the current session. Manually
 linking the current buffer to the correct REPL with <kbd>C-c C-s b</kbd> seems to fix the
-problem, but it’s only a matter of time. It takes a couple of other buffer
-switching operations to bring the issue back. It is as if the link between the
-buffer and the REPL has vanished. Even worse, without that link I can forget
-about <kbd>C-c C-k</kbd> to load the buffer.
+problem, but it’s only a matter of time. It takes a couple of buffer switching
+operations to bring the issue back. It is as if the link between the buffer and
+the REPL has vanished. Even worse, without that link I can forget about <kbd>C-c C-k</kbd>
+to load the buffer.
 
 To overcome my frustration, I sat back and looked at how exactly I interact with
 CIDER:
