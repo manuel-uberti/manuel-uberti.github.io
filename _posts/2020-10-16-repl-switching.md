@@ -89,6 +89,7 @@ Note that I changed the value of `nrepl-repl-buffer-name-template` to `*cider-r
 in your setup.
 
 Now, let’s fix <kbd>C-c C-k</kbd> as well.
+
 ``` emacs-lisp
 (defun mu--cider-session-by-type (type)
   "Return the current CIDER session by TYPE."
