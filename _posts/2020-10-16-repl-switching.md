@@ -63,7 +63,7 @@ basic needs.
     (car (seq-filter (lambda (s) (string-match-p regex s))
                      (mapcar #'buffer-name (buffer-list))))))
 
-(defun mu-cider-switch-to-repl (type)
+(defun mu-cider-switch-to-repl (&optional type)
   "Open a CIDER REPL for TYPE.
 If TYPE is not passed, open a Clojure REPL."
   (interactive "P")
@@ -101,7 +101,7 @@ Now, let’s fix <kbd>C-c C-k</kbd> as well.
                    (string-match-p regex (buffer-name (cadr s))))
                  sessions))))
 
-(defun mu-cider-load-buffer (type)
+(defun mu-cider-load-buffer (&optional type)
   "Load the current buffer according to TYPE.
 If TYPE is not passed, default to Clojure."
   (interactive "P")
