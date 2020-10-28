@@ -16,7 +16,7 @@ me and some members of the Emacs community has been getting.
 
 You see, I am a failed Free Software supporter. I stopped campaigning in its
 favour as soon as my wife’s school closed. There I had set up everything with
-Free and Open Source software, and watching the teachers effectively doing their
+Free and Open Source software, and watching the teachers effectively do their
 job with technological solutions they were not accustomed to made me happy. They
 did not really care about the reasons behind my choices, but they respected my
 contribution and were willing to overcome the first weeks of adaptation as long
