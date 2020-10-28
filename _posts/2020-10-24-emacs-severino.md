@@ -24,7 +24,7 @@ as I could guarantee a comfortable working environment. When all of this ended
 and I went back to software development, Free and Open Source software became
 only a private concern. While still set on Linux[^1], I left Debian for Ubuntu
 because I didn’t want to spend time tinkering with my operative system to get
-the best out of my Dell XPS. My distro-hopping days had came to an end. I just
+the best out of my Dell XPS. My distro-hopping days had come to an end. I just
 wanted a system that would let me code, write, and browse the Web. I chose the
 easy way.
 
