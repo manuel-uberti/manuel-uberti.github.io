@@ -87,7 +87,8 @@ DIR must include a .project file to be considered a project."
 ```
 
 As you may have already guessed, `mu-project-try-local` just needs to be added
-to `project-find-functions`.
+to `project-find-functions`. This makes sure my non-Git projects become known and
+remembered across sessions when I hit <kbd>C-x p p</kbd>.
 
 ## Notes
 
