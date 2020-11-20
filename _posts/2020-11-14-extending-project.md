@@ -59,7 +59,7 @@ further.
   "Determine if DIR is a project.
 This is a thin variant of `project-try-vc':
 - It takes only Git into consideration
-- It does not check for submodules "
+- It does not check for submodules"
   (let* ((backend (mu--backend dir))
          (root
           (when (eq backend 'Git)
