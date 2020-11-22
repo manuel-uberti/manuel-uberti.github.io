@@ -18,7 +18,7 @@ I actually need it.
 All I had to do was adapt it to my preferences:
 
 ``` emacs-lisp
-(defun mu-flymake-mode-activate-h ()
+(defun mu-flymake-mode-activate ()
   "Activate `flymake-mode' only in my projects."
   (project--ensure-read-project-list)
   (let* ((known-projects (project-known-project-roots))
