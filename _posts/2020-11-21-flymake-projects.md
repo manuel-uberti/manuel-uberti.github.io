@@ -21,8 +21,8 @@ All I had to do was adapt it to my preferences:
 (defun mu-flymake-mode-activate ()
   "Activate `flymake-mode' only in my projects."
   (project--ensure-read-project-list)
-  (let* ((known-projects (project-known-project-roots))
-         (pr (project-root (project-current))))
+  (let ((known-projects (project-known-project-roots))
+        (pr (or (vc-root-dir) default-directory)))
     (if (and (eq buffer-read-only nil)
              (member pr known-projects))
         (flymake-mode +1)
