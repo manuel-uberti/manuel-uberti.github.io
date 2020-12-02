@@ -49,8 +49,7 @@ DIR must include a .project file to be considered a project."
 
 `mu-project-try-local` just needs to be added to `project-find-functions` to
 make sure my non-Git projects become known and remembered across sessions when
-I hit <kbd>C-x p p</kbd>. This is way more elegant than the previous patch. Not
-only I am now able to use [fd](https://github.com/sharkdp/fd) in my projects.
+I hit <kbd>C-x p p</kbd>. This is way more elegant than the previous patch.
 
 Since I also never use Git submodules, I can push my extensions a little further.
 
