@@ -31,10 +31,8 @@ that I can devise my own implementation of `project-files`.
 
 (cl-defmethod project-files ((project (head local)) &optional dirs)
   "Override `project-files' to use `fd' in local projects."
-  (mapcan
-   (lambda (dir)
-     (mu--project-files-in-directory dir))
-   (or dirs (list (project-root project)))))
+  (mapcan #'mu--project-files-in-directory
+          (or dirs (list (project-root project)))))
 ```
 
 `project.el` has to be made aware of my `local` type now.
