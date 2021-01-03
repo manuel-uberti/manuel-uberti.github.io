@@ -18,7 +18,7 @@ match this passion for philosophy. I could agree, but cinema has not really bee
 on my side lately[^1]. Beside few exceptions[^2], 2020 will not be remembered for the
 films or the directors that inspired me to write.
 
-The last days of 2020 were devoted to planning new year’s resolutions. To be
+The last days of 2020 were dedicated to planning new year’s resolutions. To be
 perfectly honest, I am not a great fan of new year’s resolutions. Most of the
 time I forget about them in a couple of months. To circumvent my poor will,
 I decided to keep the resolutions simple, small, and practical. This is what
