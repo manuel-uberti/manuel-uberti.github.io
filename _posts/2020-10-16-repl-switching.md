@@ -101,28 +101,38 @@ Now, let’s fix <kbd>C-c C-k</kbd> as well.
                    (string-match-p regex (buffer-name (cadr s))))
                  sessions))))
 
-(defun mu-cider-load-buffer (&optional type)
-  "Load the current buffer according to TYPE.
-If TYPE is not passed, default to Clojure."
-  (interactive "P")
-  (let* ((system (sesman--system))
-         (buf (current-buffer))
-         (type (or type 'clj))
-         (session (mu--cider-session-by-type type)))
-    (sesman--clear-links)
-    (sesman-link-session system session 'buffer buf)
-    (cider-load-buffer buf)))
-    
+(defun mu--cider-load-buffer (session)
+  "Load the current buffer according to SESSION."
+  (if session
+      (let ((system (sesman--system))
+            (buf (current-buffer)))
+        (sesman--clear-links)
+        (sesman-link-session system session 'buffer buf)
+        (cider-load-buffer buf))
+    (message "No CIDER REPL available")))
+
+(defun mu-cider-load-clj-buffer ()
+  "Load the current Clojure buffer."
+  (interactive)
+  (mu--cider-load-buffer (mu--cider-session-by-type 'clj)))
+
 (defun mu-cider-load-cljc-buffer ()
   "Load the current ClojureC buffer."
   (interactive)
-  (mu-cider-load-buffer 'clj)
-  (mu-cider-load-buffer 'cljs))
+  (let ((clj-session (mu--cider-session-by-type 'clj))
+        (cljs-session (mu--cider-session-by-type 'cljs)))
+    (if (and (null clj-session)
+             (null cljs-session))
+        (message "No CIDER REPL available")
+      (when clj-session
+        (mu--cider-load-buffer clj-session))
+      (when cljs-session
+        (mu--cider-load-buffer cljs-session)))))
 
 (defun mu-cider-load-cljs-buffer ()
   "Load the current ClojureScript buffer."
   (interactive)
-  (mu-cider-load-buffer 'cljs))
+  (mu--cider-load-buffer (mu--cider-session-by-type 'cljs)))
 ```
 
 Just like for <kbd>C-c C-z</kbd>, <kbd>C-c C-k</kbd> is now bound to these commands according to the
