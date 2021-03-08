@@ -7,10 +7,8 @@ tags: about
 
 My name is Manuel Uberti.
 
-I started my career developing Java enterprise applications. I have worked both
-in Italy and in the United Kingdom on software deployed to a wide range of
-customers: petrol companies, hospitals, job centres, insurance companies, banks,
-fashion stores, colour and additive factories.
+I started my career developing Java enterprise applications and I have worked
+both in Italy and in the United Kingdom on projects of different sizes.
 
 In 2015 my interest has shifted towards functional programming thanks to
 languages such as Emacs Lisp and Clojure. Since [2017](https://www.manueluberti.eu/programming/2017/03/12/anewjob/) my daily job involves
